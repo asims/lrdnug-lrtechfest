@@ -1,0 +1,399 @@
+@import "bootstrap/bootstrap.less";
+
+body {
+  padding-bottom: 0;
+}
+
+@import "bootstrap/responsive.less";
+
+/* ===== Primary Styles ========================================================
+   Author:
+   ========================================================================== */
+
+
+.navbar {
+	margin: 0;
+	padding:0;
+
+	.container {
+		max-width:896px;
+		margin: 0 auto;
+	}
+
+	.brand {
+		margin-left: 20px;
+		width:278px;
+		height:160px;
+		text-indent: -9999px;
+		background: url("../img/logo_lrtf.png") no-repeat center center ;
+		padding:0;
+	}
+	
+	li a {
+		font-size:20px;
+	}
+}
+
+
+.hero-unit {
+	text-indent: -9999px;
+	
+	.container{
+		width: auto;
+	}
+	
+	.event-info {
+		background: url("../img/bg_callout_skyline.jpg") no-repeat center center ;
+		height:482px;
+	}
+	.event-more-info {
+		background: url("../img/bg_save_date_green.png") repeat center center; 
+		height:118px;
+	}
+	.event-more-info .row {
+		background: url("../img/bg_save_date_callout.jpg") no-repeat center center ;	
+		height:118px;
+	}
+}
+
+
+
+.event-highlight {
+	height:483px;
+	background: url("../img/teal_info_bg.jpg") repeat center center; 
+	font-family: @altFontFamily;
+	color:@white;
+	.container {
+		width:896px;
+	}
+	
+	.span4 {
+		width: 430px;
+		padding-right: 15px;
+	}
+	.span4:last-child {
+		padding-right: 0;
+		padding-left: 15px
+	}
+	
+	h1 {
+		font-size: 36px;
+		height:70px;
+		text-indent:-9999px;
+		margin:50px auto 50px auto;
+		background: url("../img/hdr_days_tracks_peers.png") no-repeat center center ;	
+	}
+	
+}
+
+
+/* 224 x 61 */
+
+.sponsors{
+	height:660px;
+	background: url("../img/bg_sponsors.jpg") repeat center center; 
+	
+	.container {
+		width:896px;
+	}
+	.span8 {
+		width: 896px;
+	}
+	
+	.span2 {
+		width: 224px;
+		margin-left: 0;
+	}
+	.platinum {
+		//padding-left: 30px;
+	}
+	
+	h1{
+		text-indent:-9999px;
+		margin: 45px 0 18px 0;
+		background: url("../img/hdr_sponsors.png") no-repeat center center ;
+	}
+	
+	h2 {
+		text-align: center;
+		text-transform: uppercase;
+		background: #2f4e59;
+		margin-right:1px;	
+		height:60px;
+		width:223px;
+		border-right:#c7d2c4 solid 1px;
+	}
+
+	
+	.platinum h2 {
+		background: url("../img/hdr_platinum.png") #2f4e59 no-repeat center center;
+		text-indent:-9999px;
+	}
+	.gold h2 {
+		background: url("../img/hdr_gold.png") #2f4e59 no-repeat center center;
+		text-indent:-9999px;
+	}
+	.silver h2 {
+		background: url("../img/hdr_silver.png") #2f4e59 no-repeat center center;
+		text-indent:-9999px;
+	}
+	.bronze h2 {
+		background: url("../img/hdr_bronze.png") #2f4e59 no-repeat center center;
+		text-indent:-9999px;
+	}
+	
+	
+	ul{
+		height: 450px;
+		width:223px;
+		margin: 10px 0 30px 0;
+		padding:0;
+		border-right:#c7d2c4 solid 1px;
+	}
+	
+	.bronze ul{
+		border-right:none;
+	}
+	
+	li {
+		width:223px;
+		list-style:none;
+		margin:0;
+		padding: 0;
+		
+		img {
+			max-width: 220px;
+		}
+	}
+	
+	ul li a {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		height: 100px;
+		width:223px;
+	}
+}
+
+
+
+footer {
+	color:#999999;
+	background: #000;
+	min-height: 320px;
+
+	.container {
+		width:896px;
+	}
+
+	.nav > li > a {
+		color:#999999;
+	}
+	
+	h1 {
+		color:#99ca3c;
+		font-size: 16px;
+		border-bottom: #e1e9ec solid 1px;
+		margin:30px 0 10px 0;
+		padding-bottom: 8px;
+	}
+
+	.siteSponsor p{
+		margin-top: 48px;
+		height:58px;
+		width: 320px;
+		background: url("../img/logo_by_idealoop.png") no-repeat center right ;
+		text-indent:-9999px;
+	}
+	
+	ul {
+		margin:0;
+		padding:0;
+	}
+
+}
+
+
+.content-page {
+
+	.content-header {
+		height: 160px;
+		background: @teal;
+	}
+	.content-header h1 {
+		height: 160px;
+		text-indent:-9999px;
+		margin: 0;
+		padding:0;
+	}
+
+	.container {
+		width: 896px;
+	}
+	
+	.content-container {
+		background: url("../img/bg_page_content.jpg") repeat-x top center;
+		font-family: @altFontFamily;
+		padding: 60px 0;
+	}
+	
+	.content-container .row {
+		margin-left: 0;
+	}
+	.content-container .span4 {
+		width:448px;
+		margin:0;
+	}
+	.content-container .span8 {
+		width:896px;
+		margin:0;
+	}
+	
+	.content-container .span4:first-child {
+		margin-left: -1px;
+		border-right: #ccc solid 1px;
+
+	}
+	
+	.content-container .span4:first-child p {
+		padding-right: 30px;
+	}
+	.content-container .span4:last-child p {
+		padding-left: 30px;
+	}
+	
+	.content-container table {
+		margin:70px 0;
+		color:@teal;
+		font-family: @baseFontFamily;
+	}
+	
+	.content-container thead th {
+		vertical-align: middle;
+		text-align: center;
+		text-transform: uppercase;
+		color: @grayBlue;
+	}
+	
+	.content-container tbody tr td {
+		vertical-align: middle;
+		text-align: center;
+	}
+	
+	.content-container tbody .price {
+		font-size: 24px;
+	}
+	
+	.content-container tbody tr td:first-child {
+		background-color: @teal;
+	}	
+	.content-container tbody tr td:last-child {
+		text-align: left;
+		padding: 25px;
+	}	
+	
+	.platinum {
+		background: url("../img/hdr_platinum.png") #2f4e59 no-repeat center center;
+		text-indent:-9999px;
+	}
+	.gold {
+		background: url("../img/hdr_gold.png") #2f4e59 no-repeat center center;
+		text-indent:-9999px;
+	}
+	.silver {
+		background: url("../img/hdr_silver.png") #2f4e59 no-repeat center center;
+		text-indent:-9999px;
+	}
+	.bronze {
+		background: url("../img/hdr_bronze.png") #2f4e59 no-repeat center center;
+		text-indent:-9999px;
+	}
+	.vendor {
+		background: url("../img/hdr_vendor_table.png") #2f4e59 no-repeat center center;
+		text-indent:-9999px;
+	}
+}
+
+
+.content-page.sponsor-us {
+	.content-header h1 {
+			background: url("../img/hdr_page_sponsors.png") @teal no-repeat left center;
+	}
+}
+
+.content-page.speakers {
+	.content-header h1 {
+			background: url("../img/hdr_page_speakers_call.png") @teal no-repeat left center;
+	}
+}
+
+
+@media (max-width: 480px) {
+
+	.hero-unit {
+		text-indent: 0;
+		color: white;
+		padding: 5px;
+		
+		.event-info {
+			background-image: none;
+			height:auto;
+		}
+		.event-more-info {
+			background-image: none;
+			height:auto;
+		}
+		.event-more-info .row {
+			background-image: none;
+			height:auto;
+		}
+	}
+
+	.event-highlight {
+		height:auto;
+		color:@white;
+		.container {
+			width: auto;
+		}
+		
+		.span4, .span4:last-child {
+			width: auto;
+			padding: 0 5px;
+		}
+		
+		h1 {
+			height:auto;
+			text-indent: 0;
+			margin:10px auto 10px auto;
+			background-image: none;
+			padding: 0 5px;
+		}
+		
+	}
+	
+	.sponsors{
+		height:auto;
+		padding: 5px;
+		
+		.container {
+			width:auto;
+		}
+		.span8 {
+			width: auto;
+		}
+		
+		.span2 {
+			width: auto;
+			margin-left: 0;
+		}
+		
+		h1{
+			text-indent: 0;
+			background-image: none;
+			margin-top: 10px;
+		}
+
+		
+	}
+	
+}

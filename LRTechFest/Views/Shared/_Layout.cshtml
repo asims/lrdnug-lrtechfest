@@ -1,0 +1,116 @@
+﻿<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="@ViewBag.MetaDescription">
+	<meta name="author" content="Little Rock .NET User Group">
+	<meta name="viewport" content="width=device-width">
+
+
+	<title>@ViewBag.Title</title>
+
+    <link href="@Url.Content("~/less/style.less")" rel="stylesheet" />  
+
+<!-- 
+	<link rel="stylesheet/less" href="less/style.less">
+	<script src="js/libs/less-1.3.0.min.js"></script>
+	
+	Use SimpLESS (Win/Linux/Mac) or LESS.app (Mac) to compile your .less files
+	to style.css, and replace the 2 lines above by this one:
+
+	 -->
+	 
+
+
+</head>
+<body class="@ViewBag.BodyCssClass">
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+	<div class="navbar">
+	  <div class="navbar-inner">
+	    <div class="container">
+	    	<div class="row">
+	          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	            <span class="icon-bar"></span>
+	            <!--<span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>-->
+	          </a>
+	          <a class="brand" href="/">Little Rock Tech Fest</a>
+	
+	          <div class="nav-collapse">
+	            <ul class="nav pull-right">
+	              <!--<li class="active"><a href="">About</a></li>-->
+	              <li><a href="/sponsor">Sponsors</a></li>
+				  <li><a href="http://lrtechfest.eventbrite.com?ref=elink" target="_blank" >Register</a></li>
+                  <li><a href="/speakers/call">Call for Speakers</a></li>
+	              <!--<li><a href="#">Schedule</a></li>
+	              <li><a href="#">Contact</a></li>-->
+	            </ul>
+	          </div><!--/.nav-collapse -->
+	        </div>
+	    </div>
+	  </div>
+	</div>
+	
+
+	@RenderBody()
+
+
+	<footer>
+	  <div class="container">
+		<div class="row">
+			<div class="span2 navlinks">
+				<h1>Navigate</h1>
+		        <ul class="nav">
+		          <li class="active"><a href="/">Home</a></li>
+		          <li><a href="/sponsor">Sponsors</a></li>
+				  <li><a href="http://lrtechfest.eventbrite.com?ref=elink" target="_blank" >Register</a></li>
+                  <li><a href="/speakers/call">Call for Speakers</a></li>
+		        </ul>
+			</div>
+			<div class="span3 eventQuickInfo">
+				<h1>Little Rock Tech Fest</h1>
+				<p>Friday: March 1, 2013</p>
+			</div>
+			<div class="span3 offset1 siteSponsor">
+				<p>Site provided by IdeaLoop</p>
+			</div>
+		</div>
+	  </div>	
+	</footer>
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>    window.jQuery || document.write('<script src="@Url.Content("~/Scripts/jquery-1.8.2.min.js")"><\/script>')</script>
+
+
+<script src="@Url.Content("~/Scripts/modernizr-2.5.3-respond-1.1.0.min.js")"></script>
+
+<!-- scripts concatenated and minified via ant build script-->
+<script src="@Url.Content("~/Scripts/bootstrap/bootstrap.min.js")"></script>
+
+<script src="@Url.Content("~/Scripts/script.js")"></script>
+<!-- end scripts-->
+
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-33443452-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+
+</body>
+</html>

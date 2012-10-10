@@ -1,0 +1,160 @@
+body {
+  padding-bottom: 0;
+}
+/* ===== Primary Styles ========================================================
+   Author:
+   ========================================================================== */
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+.navbar .container {
+  max-width: 896px;
+  margin: 0 auto;
+}
+.navbar .brand {
+  margin-left: 20px;
+  width: 278px;
+  height: 160px;
+  text-indent: -9999px;
+  background: url("../img/logo_lrtf.png") no-repeat center center;
+  padding: 0;
+}
+.navbar li a {
+  font-size: 20px;
+}
+.hero-unit {
+  text-indent: -9999px;
+}
+.hero-unit .container {
+  width: auto;
+}
+.hero-unit .event-info {
+  background: url("../img/bg_callout_skyline.jpg") no-repeat center center;
+  height: 482px;
+}
+.hero-unit .event-more-info {
+  background: url("../img/bg_save_date_green.png") repeat center center;
+  height: 118px;
+}
+.hero-unit .event-more-info .row {
+  background: url("../img/bg_save_date_callout.jpg") no-repeat center center;
+  height: 118px;
+}
+.event-highlight {
+  height: 483px;
+  background: url("../img/teal_info_bg.jpg") repeat center center;
+}
+.event-highlight .container {
+  width: 896px;
+}
+.event-highlight .span4 {
+  width: 46.5%;
+}
+.event-highlight h1 {
+  font-size: 36px;
+  height: 70px;
+  text-indent: -9999px;
+  margin: 50px auto 50px auto;
+  background: url("../img/hdr_days_tracks_peers.png") no-repeat center center;
+}
+/* 224 x 61 */
+.sponsors {
+  height: 660px;
+  background: url("../img/bg_sponsors.jpg") repeat center center;
+}
+.sponsors .container {
+  width: 896px;
+}
+.sponsors .span8 {
+  width: 896px;
+}
+.sponsors .span2 {
+  width: 224px;
+  margin-left: 0;
+}
+.sponsors .platinum {
+  padding-left: 30px;
+}
+.sponsors h1 {
+  text-indent: -9999px;
+  margin: 45px 0 18px 0;
+  background: url("../img/hdr_sponsors.png") no-repeat center center;
+}
+.sponsors h2 {
+  text-align: center;
+  text-transform: uppercase;
+  background: #2f4e59;
+  margin-right: 1px;
+  height: 60px;
+  width: 223px;
+  border-right: #c7d2c4 solid 1px;
+}
+.sponsors .platinum h2 {
+  background: url("../img/hdr_platinum.png") #2f4e59 no-repeat center center;
+  text-indent: -9999px;
+}
+.sponsors .gold h2 {
+  background: url("../img/hdr_gold.png") #2f4e59 no-repeat center center;
+  text-indent: -9999px;
+}
+.sponsors .silver h2 {
+  background: url("../img/hdr_silver.png") #2f4e59 no-repeat center center;
+  text-indent: -9999px;
+}
+.sponsors .bronze h2 {
+  background: url("../img/hdr_bronze.png") #2f4e59 no-repeat center center;
+  text-indent: -9999px;
+}
+.sponsors ul {
+  height: 450px;
+  width: 223px;
+  margin: 10px 0 30px 0;
+  padding: 0;
+  border-right: #c7d2c4 solid 1px;
+}
+.sponsors .bronze ul {
+  border-right: none;
+}
+.sponsors li {
+  width: 223px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sponsors ul li a {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100px;
+  width: 223px;
+  text-align: center;
+}
+footer {
+  color: #999999;
+  background: #000;
+  min-height: 320px;
+}
+footer .container {
+  width: 896px;
+}
+footer .nav > li > a {
+  color: #999999;
+}
+footer h1 {
+  color: #99ca3c;
+  font-size: 16px;
+  border-bottom: #e1e9ec solid 1px;
+  margin: 30px 0 10px 0;
+  padding-bottom: 8px;
+}
+footer .siteSponsor p {
+  margin-top: 48px;
+  height: 58px;
+  width: 320px;
+  background: url("../img/logo_by_idealoop.png") no-repeat center right;
+  text-indent: -9999px;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
