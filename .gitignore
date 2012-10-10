@@ -1,0 +1,16 @@
+*resharper.user
+# Visual Studio
+[Dd]ebug/
+[Oo]bj/
+[Rr]elease/
+*.sln.cache
+*.suo
+*.csproj.user
+
+# Resharper
+*[Rr]e[Ss]harper.user
+_ReSharper.*/
+
+#Misc files
+Thumbs.db
+
