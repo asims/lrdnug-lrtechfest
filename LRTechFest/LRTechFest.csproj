@@ -170,6 +170,7 @@
     <Content Include="img\hdr_days_tracks_peers.png" />
     <Content Include="img\hdr_gold.jpg" />
     <Content Include="img\hdr_gold.png" />
+    <Content Include="img\hdr_page_speakers_call.png" />
     <Content Include="img\hdr_page_sponsors.png" />
     <Content Include="img\hdr_platinum.jpg" />
     <Content Include="img\hdr_platinum.png" />
@@ -290,7 +291,7 @@
     <None Include="less\bootstrap\utilities.less" />
     <None Include="less\bootstrap\variables.less" />
     <None Include="less\bootstrap\wells.less" />
-    <None Include="less\style.less" />
+    <Content Include="less\style.less" />
     <Content Include="Views\Sponsor\Index.cshtml" />
     <Content Include="Views\Speakers\Call.cshtml" />
   </ItemGroup>
