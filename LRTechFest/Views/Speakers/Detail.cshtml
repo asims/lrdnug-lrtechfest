@@ -1,0 +1,36 @@
+﻿@model LRTechFest.Controllers.Speaker
+@{
+    ViewBag.Title = "Speaker Detail";
+    ViewBag.MetaDescription = "Speaker at Little Rock Tech Fest! Little Rock Tech Fest, organized by the Little Rock .NET User Group, is a one day tech fest serving the Greater Little Rock area.";
+}
+
+
+<div class="content-header">
+    <div class="container">
+        @Html.ActionLink("Back to Speakers List", "List","Speakers")
+        <h1>@Model.FirstName  @Model.LastName</h1>
+
+        <div>
+            <b>Bio:</b>
+            <br />
+            @Model.Bio
+        </div>
+        <br />
+        <div>
+            <b>Presentations at the 2013 Little Rock Tech Fest:</b>
+            <ul>
+                @foreach (var p in Model.Presentations)
+                {
+                    <li><b>@p.Topic</b>
+                        <br />
+                        @p.Description</li>
+                }
+            </ul>
+
+        </div>
+
+
+
+    </div>
+</div>
+

@@ -1,0 +1,43 @@
+﻿@model List<LRTechFest.Controllers.Speaker>
+@{
+    ViewBag.Title = "Speaker List";
+    ViewBag.MetaDescription = "Speaker List at Little Rock Tech Fest! Little Rock Tech Fest, organized by the Little Rock .NET User Group, is a one day tech fest serving the Greater Little Rock area.";
+}
+
+
+<div class="content-header">
+    <div class="container">
+        <h1>Current List of Speakers</h1>
+
+        @foreach (var s in Model.OrderBy(x => x.LastName))
+        {
+            <div class="mini-profile ">
+                <div class="profile-meta-col">
+                    <div class="avatar avatar-profile">
+                        <a href="@Url.Action("Detail", "Speakers", new { id = s.Id })">
+                            @*<img src="" alt="">*@
+                        </a>
+                    </div>
+                </div>
+
+                <span class="name">
+                    <h3> @Html.ActionLink(s.FirstName + " " + s.LastName, "Detail", "Speakers", new { id = s.Id }, null)</h3>
+                </span>
+                <p class="profile-desc">
+                    @s.ShortBio
+                    @if (!string.IsNullOrEmpty(s.Website))
+                    {
+                        <br/>
+                        <span>Website:</span>
+                        <a href="@s.Website">@s.Website</a>
+                    }
+                </p>
+            </div>
+            <br/>
+                
+        }
+
+
+    </div>
+</div>
+
