@@ -250,20 +250,5 @@
          }
       ]
    },
-   {
-   "Id" : 15,
-      "FirstName":"Parisa",
-      "LastName":"Foster",
-      "Bio":"Fascinated by digital technology, Parisa Foster has developed extensive expertise in mobile on a wide range of projects. Her career started at Airborne Mobile, a mobile content provider, working in business intelligence and product management.At Yellow Pages Group, she managed marketing and communications for the company’s mobile products and its public API. At Just For Laughs, the world's largest comedy festival, her mission was to orchestrate the brand’s digital transformation including website redesign and mobile applications.At w.illi.am/, a digital consulting firm, she consulted on mobile for large organizations in industries such as energy distribution and television.After working as a freelance mobile consultant, Parisa is now Marketing Director at Budge Studios, a leading provider of mobile apps for kids.She keeps a blog about mobile's role in today’s culture (parisafoster.com) and recently presented a keynote at Mobiz, The Quebec Mobile Congress.",
-      "Website":"http://parisafoster.com",
-      "Photo":"",
-      "Presentations":[
-         {
-            "Track":"Mobile",
-            "Topic":"99 ways to get your app noticed",
-            "Description":"You’ve submitted your app to the App Store. Congratulations!Umm, no, not yet.Long gone are the days where you could simply submit your app and watch those download numbers climb. Now with over 1.5 million apps available for download and with over 1,700 new apps uploaded every day across the different platforms, your app needs a serious boost to make a blip on the radar.This conference will outline 99 ways to help get your app noticed, with tactics ranging from App Store Optimization (ASO) techniques to more outlandish marketing plays."
-
-         }
-      ]
-   }
+  
 ]
