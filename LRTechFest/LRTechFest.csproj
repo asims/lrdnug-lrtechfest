@@ -185,6 +185,7 @@
     <Content Include="img\hdr_gold.jpg" />
     <Content Include="img\hdr_gold.png" />
     <Content Include="img\hdr_page_speakers_call.png" />
+    <Content Include="img\hdr_page_speakers_list.png" />
     <Content Include="img\hdr_page_sponsors.png" />
     <Content Include="img\hdr_platinum.jpg" />
     <Content Include="img\hdr_platinum.png" />
