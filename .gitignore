@@ -3,6 +3,7 @@
 [Dd]ebug/
 [Oo]bj/
 [Rr]elease/
+[Bb]in
 *.sln.cache
 *.suo
 *.csproj.user
