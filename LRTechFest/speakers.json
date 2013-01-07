@@ -112,7 +112,31 @@
          {
             "Track":"Desktop",
             "Topic":"Introduction to Blender 3D",
-            "Description":"Blender is the leading open-source 3D animation and game system. It is free and animators the world over use it for films, games, TV, scientific visualization, architectural walk-throughs and animation on the web. This tutorial will be an introduction to Blender, showing Blender’s capabilities, how to use it, and goes step by step through a simple project. The talk will begin with a display of a gallery of images created in Blender and a general introduction to Blender followed by a showing of portions of Sintel, the animation made entirely in Blender and shown at Siggraph in 2011.Next, students will discover how Blender's unique Interface can be so powerful and be introduced to the major interface windows including the 3D View, Properties, Dope Sheet and others. Python can be accessed in Blender via the Python Console, the Info Window and the Text window.There will be a short introduction to the Blender Game Engine and students will be able to create a simple real-time interactive control.Next, students will step through the major steps of 3D animation production by creating and animating a 3D butterfly. Students will explore many of the functions of Blender by:Making a template in the Blender 3D windowsCreating a wing with polygonal modelingAssigning a texture to the wingUsing nurbs modeling to create the bodyAdding a material to the bodyUsing parenting to link the wings to the bodyCreating an animation keyframeExtracting animation data from the Info window and using it to create a short Python scriptUsing the Timeline to create animation cycles.Animating the butterfly's course of motion.Simple lighting Tracking the butterfly with the cameraTracking the butterfly with the lightBasic rendering settings"
+            "Description":"<p>Blender is the leading open-source 3D animation and game system. It is free and animators the world over use it for films, games, TV, scientific visualization, architectural walk-throughs and animation on the web. This tutorial will be an introduction to Blender, showing Blender’s capabilities, how to use it, and goes step by step through a simple project. </p>
+
+<p>The talk will begin with a display of a gallery of images created in Blender and a general introduction to Blender followed by a showing of portions of Sintel, the animation made entirely in Blender and shown at Siggraph in 2011.</p>
+
+<p>Next, students will discover how Blender's unique Interface can be so powerful and be introduced to the major interface windows including the 3D View, Properties, Dope Sheet and others. Python can be accessed in Blender via the Python Console, the Info Window and the Text window.</p>
+
+<p>There will be a short introduction to the Blender Game Engine and students will be able to create a simple real-time interactive control.</p>
+
+<p>Next, students will step through the major steps of 3D animation production by creating and animating a 3D butterfly. Students will explore many of the functions of Blender by:</p>
+<ul>
+<li>Making a template in the Blender 3D windows</li>
+<li>Creating a wing with polygonal modeling</li>
+<li>Assigning a texture to the wing</li>
+<li>Using nurbs modeling to create the body</li>
+<li>Adding a material to the body</li>
+<li>Using parenting to link the wings to the body</li>
+<li>Creating an animation keyframe</li>
+<li>Extracting animation data from the Info window and using it to create a short Python script</li>
+<li>Using the Timeline to create animation cycles.</li>
+<li>Animating the butterfly's course of motion.</li>
+<li>Simple lighting Tracking the butterfly with the camera</li>
+<li>Tracking the butterfly with the light</li>
+<li>Basic rendering settings</li>
+</ul>
+"
 
          }
       ]
@@ -121,9 +145,11 @@
    "Id" : 8,
       "FirstName":"Chris",
       "LastName":"Koenig",
-      "Bio":"http//chriskoenig.net/about",
+      "Bio":"<p>Chris Koenig is a Senior Technical Evangelist with Microsoft focused on our Windows Azure and Windows Phone technologies.  His job is to help developers, designers, entrepreneurs, startups companies and organizations large and small to find success and riches using Microsoft technology, specifically around Windows Azure and Windows Phone.</p>
+
+<p>Prior to joining Microsoft in March of 2007, Chris worked as a Senior Architect for The Capital Group in San Antonio, and as a Solution Architect for the global solution provider Avanade. As an Architect and  consultant, Chris worked with a variety of clients from many vertical markets, ISVs and other solution providers on enterprise-class Windows and web-based applications.</p>",
       "Website":"http://chriskoenig.net",
-      "Photo":"",
+      "Photo":"/img/spkrs/chris-koenig.png",
       "Presentations":[
          {
             "Track":"Mobile",
@@ -180,7 +206,7 @@
       "Description":"This presentation provides the audience with real-life Google Analytics data from a client performance case study. The study provides in-page analysis of visitor behavior for improved bounce rate, understanding when you need to focus on mobile, as well as red flags in site IA and design. A simple step-by-step implementation of custom alerts will also be discussed.Takeaways: How to Improve Bounce Rate,Understand When You Need to Pay Attention to MobileImprove IA and Design Based On In-Page Analytics Set Up Custom Alerts",
       "Bio":"Jonathan Goodman started his career over 20 years ago at the dawn of the Internet age producing websites for Fortune 500 companies. He is currently the President of Halyard Consulting, an Internet marketing firm, exclusively focused on WordPress development and search optimization. Jonathan holds an MBA from Fairleigh Dickinson University, an MS from the College of New Rochelle, and a BFA from the Ringling College of Art and Design. Jonathan spent five years as the professor of Internet marketing at the Silberman College of Business at Fairleigh Dickinson University. He has spoken at numerous conferences and conventions running the gamut from higher education symposiums to music industry conferences to WordPress WordCamps. Most recently he spoke about Schema at SMX East 2012.",
       "Website":"http://halyardconsulting.com",
-      "Photo":"",
+      "Photo":"/img/spkrs/jonathan-goodman.png",
       "Presentations":[
          {
             "Track":"Collaboration and Content Management",
@@ -208,7 +234,7 @@
       "LastName":"Wiley",
       "Bio":"Michael Wiley is a Premier Field Engineer with Microsoft who specializes in Visual Studio Application Lifecycle Management (ALM), Powershell, and Windows troubleshooting.  He is a regular technical presenter at local and regional events.  Prior to working with Microsoft, Michael was a VB.Net MVP and a software engineer who delivered solutions in a variety of markets including healthcare, government, financial services, and information management.  He is heavily involved in the Developer community and was the Founder and President of the Little Rock .NET User Group for three years.  In his spare time Michael enjoys hiking, scuba diving, and creating haunted houses.",
       "Website":"",
-      "Photo":"",
+      "Photo":"/img/spkrs/michael-wiley.jpg",
       "Presentations":[
          {
             "Track":"Collaboration and Content Management",
@@ -238,14 +264,14 @@
    "Id" : 14,
       "FirstName":"David",
       "LastName":"Copeland",
-      "Bio":"I’m a programmer and author. I speak frequently at national and regional conferences and spend my days currently as a tech lead for payment processing at LivingSocial in Washington, DC. I’ve written applications in C, C++, Perl, Ruby, Scala, and many others, on large and small teams.  I've reviewed a LOT more code than I've written.As a developer, I believe in clean code, making it right, providing a great user experience and using the right tool for the job. As an author, I insist on the Oxford Comma, try to avoid semi-colons, and really hate title case.",
+      "Bio":"David is a programmer and author. He speaks frequently at national and regional conferences and currently spends his days as a tech lead for payment processing at LivingSocial in Washington, DC. He's written applications in C, C++, Perl, Ruby, Scala, and many others, on large and small teams. He's reviewed a LOT more code than he's written. As a developer, he believes in clean code, making it right, providing a great user experience and using the right tool for the job. As an author, he insists on the Oxford Comma, tries to avoid semi-colons, and really hates title case.",
       "Website":"http://www.naildrivin5.com/blog",
       "Photo":"",
       "Presentations":[
          {
             "Track":"IT Professional",
             "Topic":"Technical Debt vs. Slop - Doing it right on schedule",
-            "Description":"Do you find yourself looking at something less than ideal and just calling it technical debt?Do you look at work you did a few months and only then realize it's not quite right?  Do youpropose \"\"hacky\"\" solutions to appease a project manager eager to get something done quickly?  Are you scolding by your team lead for trying to make \"\"perfect\"\" code?This talk will straighten ALL of that out.  We'll talk about the difference between technicaldebt and sloppy coding, and dispel the myth of perfect code.  I'll arm you with the confidenceto deliver quality, and the sense to keep from over-engineering and getting lost chasingthe dream of beautiful code.  Through the simple acts of testing, editing, and review, you'lldeliver clean code on a schedule, and have the confidence to insist on it."
+            "Description":"Do you find yourself looking at something less than ideal and just calling it technical debt? Do you look at work you did a few months and only then realize it's not quite right?  Do youpropose \"\"hacky\"\" solutions to appease a project manager eager to get something done quickly? Are you scolding by your team lead for trying to make \"\"perfect\"\" code?This talk will straighten ALL of that out.  We'll talk about the difference between technicaldebt and sloppy coding, and dispel the myth of perfect code.  I'll arm you with the confidenceto deliver quality, and the sense to keep from over-engineering and getting lost chasingthe dream of beautiful code. Through the simple acts of testing, editing, and review, you'lldeliver clean code on a schedule, and have the confidence to insist on it."
 
          }
       ]

@@ -11,9 +11,7 @@
         <h1>@Model.FirstName  @Model.LastName</h1>
 
         <div>
-            <b>Bio:</b>
-            <br />
-            @Model.Bio
+            @Html.Raw(Model.Bio)
         </div>
         <br />
         <div>
@@ -23,7 +21,7 @@
                 {
                     <li><b>@p.Topic</b>
                         <br />
-                        @p.Description</li>
+                        @Html.Raw(p.Description)</li>
                 }
             </ul>
 
