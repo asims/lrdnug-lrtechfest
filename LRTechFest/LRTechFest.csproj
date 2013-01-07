@@ -197,6 +197,9 @@
     <Content Include="img\logo_idealoop.png" />
     <Content Include="img\logo_lrtf.png" />
     <Content Include="img\logo_telerik.png" />
+    <Content Include="img\spkrs\chris-koenig.png" />
+    <Content Include="img\spkrs\jonathan-goodman.png" />
+    <Content Include="img\spkrs\michael-wiley.jpg" />
     <Content Include="img\teal_info_bg.jpg" />
     <Content Include="less\bootstrap\bootstrap.css" />
     <Content Include="less\bootstrap\mixins.css" />

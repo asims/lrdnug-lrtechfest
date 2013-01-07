@@ -15,33 +15,53 @@
 
 <div class="content-container">
     <div class="container">
-        <h1>Current List of Speakers</h1>
 
         @foreach (var s in Model.OrderBy(x => x.LastName))
         {
-            <div class="mini-profile ">
+            <div class="row">
+               @* <h2>@Html.ActionLink(s.FullName, "Detail", "Speakers", new { id = s.Id }, null)</h2>*@
+               <h2>@s.FullName</h2>
+            </div>
+            <div class="row alt">
+                <div class="span2">
+                    @if (!string.IsNullOrEmpty(s.Photo)){
+                    <img src= "@Url.Content(s.Photo)" alt="@s.FullName" width="175"; />
+                    }
+                    @if (!string.IsNullOrEmpty(s.Website))
+                    {
+                        <a href="@s.Website">@s.Website</a>
+                    }
+                    &nbsp;
+                </div>
+                <div class="span5 offset1">
+                    
+                    @Html.Raw(s.Bio)
+                    
+                    @foreach (var p in s.Presentations)
+                    {
+                        <h3>@p.Topic</h3>
+                        @Html.Raw(p.Description)
+                    }
+
+                
+                </div>
+            </div>
+            
+@*            <div class="mini-profile span3">
                 <div class="profile-meta-col">
                     <div class="avatar avatar-profile">
                         <a href="@Url.Action("Detail", "Speakers", new { id = s.Id })">
-                            @*<img src="" alt="">*@
+                            <img src="" alt="">
                         </a>
                     </div>
                 </div>
 
                 <span class="name">
-                    <h3> @Html.ActionLink(s.FirstName + " " + s.LastName, "Detail", "Speakers", new { id = s.Id }, null)</h3>
+                    
                 </span>
-                <p class="profile-desc">
-                    @s.ShortBio
-                    @if (!string.IsNullOrEmpty(s.Website))
-                    {
-                        <br/>
-                        <span>Website:</span>
-                        <a href="@s.Website">@s.Website</a>
-                    }
-                </p>
+                
             </div>
-            <br/>
+            <br/>*@
                 
         }
 
