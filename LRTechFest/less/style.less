@@ -13,11 +13,11 @@ body {
 
 .navbar {
 	margin: 0;
-	padding:0;
+	//padding:0;
 
 	.container {
-		max-width:896px;
-		margin: 0 auto;
+		max-width:1200px;
+		//margin: 0 auto;
 	}
 
 	.brand {
@@ -35,7 +35,11 @@ body {
 }
 
 
+
 .hero-unit {
+	padding: 0;
+	margin-bottom:0;
+	.border-radius(0px);
 	text-indent: -9999px;
 	
 	.container{
@@ -64,16 +68,16 @@ body {
 	font-family: @altFontFamily;
 	color:@white;
 	.container {
-		width:896px;
+		//width:896px;
 	}
 	
 	.span4 {
-		width: 430px;
+		//width: 430px;
 		padding-right: 15px;
 	}
 	.span4:last-child {
-		padding-right: 0;
-		padding-left: 15px
+		//padding-right: 0;
+		//padding-left: 15px
 	}
 	
 	h1 {
@@ -94,24 +98,27 @@ body {
 	background: url("../img/bg_sponsors.jpg") repeat center center; 
 	
 	.container {
-		width:896px;
+		max-width:896px;
 	}
 	.span8 {
-		width: 896px;
+		//width: 896px;
 	}
 	
 	.span2 {
-		width: 224px;
+		min-width: 224px;
 		margin-left: 0;
 	}
+	.span2:first-child {
+		//margin-left:30px;
+	}
 	.platinum {
-		//padding-left: 30px;
+		padding-left: 30px;
 	}
 	
 	h1{
 		text-indent:-9999px;
 		margin: 45px 0 18px 0;
-		background: url("../img/hdr_sponsors.png") no-repeat center center ;
+		background: url("../img/hdr_sponsors.png") no-repeat center left ;
 	}
 	
 	h2 {
@@ -183,7 +190,7 @@ footer {
 	min-height: 320px;
 
 	.container {
-		width:896px;
+		max-width:1200px;
 	}
 
 	.nav > li > a {
@@ -219,6 +226,10 @@ footer {
 	.content-header {
 		height: 160px;
 		background: @teal;
+		
+		.container {
+		//max-width: 896px;
+		}
 	}
 	.content-header h1 {
 		height: 160px;
@@ -227,25 +238,27 @@ footer {
 		padding:0;
 	}
 
-	.container {
-		width: 896px;
-	}
+	
 	
 	.content-container {
 		background: url("../img/bg_page_content.jpg") repeat-x top center;
 		font-family: @altFontFamily;
 		padding: 60px 0;
+
+		.container {
+			//max-width: 896px;
+		}
 	}
 	
 	.content-container .row {
 		margin-left: 0;
 	}
 	.content-container .span4 {
-		width:448px;
+		//width:448px;
 		margin:0;
 	}
 	.content-container .span8 {
-		width:896px;
+		//width:896px;
 		margin:0;
 	}
 	
@@ -288,8 +301,8 @@ footer {
 		background-color: @teal;
 	}	
 	.content-container tbody tr td:last-child {
-		text-align: left;
-		padding: 25px;
+		text-align:left;
+		padding:25px;
 	}	
 	
 	.platinum {
@@ -366,7 +379,7 @@ footer {
 		}
 		
 		.span4, .span4:last-child {
-			width: auto;
+			//width: auto;
 			padding: 0 5px;
 		}
 		
@@ -385,15 +398,15 @@ footer {
 		padding: 5px;
 		
 		.container {
-			width:auto;
+			//width:auto;
 		}
 		.span8 {
-			width: auto;
+			//width: auto;
 		}
 		
 		.span2 {
-			width: auto;
-			margin-left: 0;
+			//width: auto;
+			//margin-left: 0;
 		}
 		
 		h1{

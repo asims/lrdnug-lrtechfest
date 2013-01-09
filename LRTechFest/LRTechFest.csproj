@@ -201,12 +201,6 @@
     <Content Include="img\spkrs\jonathan-goodman.png" />
     <Content Include="img\spkrs\michael-wiley.jpg" />
     <Content Include="img\teal_info_bg.jpg" />
-    <Content Include="less\bootstrap\bootstrap.css" />
-    <Content Include="less\bootstrap\mixins.css" />
-    <Content Include="less\bootstrap\responsive-utilities.css" />
-    <Content Include="less\bootstrap\responsive.css" />
-    <Content Include="less\bootstrap\utilities.css" />
-    <Content Include="less\bootstrap\variables.css" />
     <Content Include="less\style.css" />
     <Content Include="README.jQuery.vsdoc.txt" />
     <Content Include="Scripts\bootstrap\alert.js" />
@@ -231,6 +225,7 @@
     <Content Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\less-1.3.3.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -285,6 +280,7 @@
     <None Include="less\bootstrap\hero-unit.less" />
     <None Include="less\bootstrap\labels-badges.less" />
     <None Include="less\bootstrap\layouts.less" />
+    <None Include="less\bootstrap\media.less" />
     <None Include="less\bootstrap\mixins.less" />
     <None Include="less\bootstrap\modals.less" />
     <None Include="less\bootstrap\navbar.less" />
