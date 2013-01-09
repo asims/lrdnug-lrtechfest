@@ -20,10 +20,10 @@
         {
             <div class="row">
                @* <h2>@Html.ActionLink(s.FullName, "Detail", "Speakers", new { id = s.Id }, null)</h2>*@
-               <h2>@s.FullName</h2>
+               <h2 class="span12">@s.FullName</h2>
             </div>
             <div class="row alt">
-                <div class="span2">
+                <div class="span3">
                     @if (!string.IsNullOrEmpty(s.Photo)){
                     <img src= "@Url.Content(s.Photo)" alt="@s.FullName" width="175"; />
                     }
@@ -33,7 +33,7 @@
                     }
                     &nbsp;
                 </div>
-                <div class="span5 offset1">
+                <div class="span7 offset1">
                     
                     @Html.Raw(s.Bio)
                     
