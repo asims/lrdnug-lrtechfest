@@ -6,11 +6,11 @@
     <file relUrl="less/bootstrap/responsive-utilities.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="less/bootstrap/buttons.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="bin/System.Web.WebPages.dll" publishTime="01/05/2011 15:45:38" />
+    <file relUrl="bin/System.Web.Mvc.dll" publishTime="01/05/2011 17:42:16" />
     <file relUrl="img/hdr_page_speakers_list.png" publishTime="01/06/2013 17:25:51" />
     <file relUrl="less/bootstrap/type.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="img/bg_save_date_callout.jpg" publishTime="06/11/2012 19:18:41" />
     <file relUrl="Content/themes/base/jquery.ui.datepicker.css" publishTime="10/08/2012 21:06:29" />
-    <file relUrl="less/bootstrap/hero-unit.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="bin/System.Web.Helpers.xml" publishTime="12/19/2010 23:59:38" />
     <file relUrl="img/hdr_platinum.png" publishTime="06/23/2012 08:19:59" />
     <file relUrl="img/hdr_gold.jpg" publishTime="06/11/2012 19:50:04" />
@@ -19,26 +19,32 @@
     <file relUrl="Content/themes/base/minified/jquery.ui.autocomplete.min.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Views/Account/ChangePasswordSuccess.cshtml" publishTime="09/29/2012 14:34:41" />
     <file relUrl="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" publishTime="10/08/2012 21:06:29" />
+    <file relUrl="less/bootstrap/responsive-navbar.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Scripts/bootstrap/bootstrap.js" publishTime="06/12/2012 03:28:42" />
     <file relUrl="Views/Web.config" publishTime="09/29/2012 14:34:41" />
     <file relUrl="Scripts/bootstrap/popover.js" publishTime="06/12/2012 03:28:42" />
+    <file relUrl="Scripts/bootstrap/scrollspy.js" publishTime="06/12/2012 03:28:42" />
+    <file relUrl="Content/themes/base/minified/images/ui-icons_222222_256x240.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="less/bootstrap/utilities.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Scripts/jquery.validate.js" publishTime="10/08/2012 21:06:33" />
     <file relUrl="bin/System.Web.Razor.xml" publishTime="12/20/2010 10:52:36" />
     <file relUrl="Scripts/bootstrap/tooltip.js" publishTime="06/12/2012 03:28:42" />
     <file relUrl="Content/themes/base/jquery.ui.all.css" publishTime="10/08/2012 21:06:29" />
+    <file relUrl="img/teal_info_bg.jpg" publishTime="06/11/2012 19:08:12" />
     <file relUrl="bin/System.Web.Razor.dll" publishTime="01/05/2011 15:45:38" />
+    <file relUrl="less/style.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Scripts/bootstrap/tab.js" publishTime="06/12/2012 03:28:42" />
     <file relUrl="bin/System.Web.Abstractions.dll" publishTime="03/18/2010 20:31:26" />
     <file relUrl="img/hdr_days_tracks_peers.png" publishTime="06/11/2012 19:10:16" />
     <file relUrl="img/hdr_bronze.png" publishTime="06/23/2012 08:18:31" />
     <file relUrl="img/spkrs/chris-koenig.png" publishTime="01/06/2013 21:25:39" />
+    <file relUrl="Views/Home/About.cshtml" publishTime="09/29/2012 14:34:41" />
     <file relUrl="Content/themes/base/minified/jquery.ui.progressbar.min.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="less/bootstrap/media.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="bin/speakers.json" publishTime="01/06/2013 21:25:39" />
     <file relUrl="less/bootstrap/breadcrumbs.less" publishTime="01/08/2013 22:32:07" />
     <file relUrl="Scripts/jquery-1.8.2.min.js" publishTime="10/08/2012 21:06:44" />
-    <file relUrl="less/style.less" publishTime="01/08/2013 22:32:08" />
+    <file relUrl="less/bootstrap/dropdowns.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="img/bg_page_content.jpg" publishTime="06/24/2012 21:09:33" />
     <file relUrl="less/bootstrap/responsive-768px-979px.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Views/Shared/_LogOnPartial.cshtml" publishTime="09/29/2012 14:34:41" />
@@ -48,10 +54,8 @@
     <file relUrl="img/bg_callout_skyline.jpg" publishTime="06/11/2012 19:16:56" />
     <file relUrl="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="img/glyphicons-halflings.png" publishTime="06/12/2012 03:28:40" />
-    <file relUrl="less/bootstrap/dropdowns.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Content/themes/base/minified/jquery.ui.accordion.min.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Content/themes/base/jquery-ui.css" publishTime="10/08/2012 21:06:29" />
-    <file relUrl="less/bootstrap/tooltip.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Content/themes/base/jquery.ui.resizable.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Scripts/bootstrap/transition.js" publishTime="06/12/2012 03:28:42" />
     <file relUrl="Scripts/MicrosoftMvcAjax.debug.js" publishTime="09/29/2012 14:34:41" />
@@ -61,150 +65,147 @@
     <file relUrl="less/bootstrap/modals.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Views/Speakers/List.cshtml" publishTime="01/08/2013 22:32:07" />
     <file relUrl="Content/style.css" publishTime="06/23/2012 09:26:28" />
-    <file relUrl="less/bootstrap/pager.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Scripts/MicrosoftMvcAjax.js" publishTime="09/29/2012 14:34:41" />
     <file relUrl="bin/System.Web.WebPages.Deployment.dll" publishTime="01/05/2011 15:45:38" />
     <file relUrl="less/bootstrap/labels-badges.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="bin/Newtonsoft.Json.dll" publishTime="01/06/2013 16:49:19" />
-    <file relUrl="Content/themes/base/jquery.ui.dialog.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Views/Speakers/Call.cshtml" publishTime="01/06/2013 16:49:19" />
-    <file relUrl="img/spkrs/michael-wiley.jpg" publishTime="01/06/2013 21:25:39" />
+    <file relUrl="less/bootstrap/navbar.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="img/hdr_gold.png" publishTime="06/23/2012 08:19:36" />
+    <file relUrl="Content/themes/base/minified/jquery.ui.button.min.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="img/logo_lrtf.png" publishTime="06/06/2012 22:38:11" />
     <file relUrl="Content/bootstrap/bootstrap.css" publishTime="06/23/2012 09:22:29" />
     <file relUrl="Global.asax" publishTime="09/29/2012 14:34:41" />
-    <file relUrl="less/bootstrap/variables.less" publishTime="01/08/2013 22:32:08" />
+    <file relUrl="less/bootstrap/popovers.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="bin/System.Web.WebPages.Razor.xml" publishTime="12/20/2010 10:52:36" />
     <file relUrl="Scripts/jquery-1.8.2.js" publishTime="10/08/2012 21:06:44" />
     <file relUrl="less/bootstrap/responsive.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Scripts/MicrosoftMvcValidation.js" publishTime="09/29/2012 14:34:41" />
-    <file relUrl="less/bootstrap/navbar.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="less/bootstrap/navs.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Content/themes/base/minified/jquery.ui.theme.min.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Web.config" publishTime="01/07/2013 08:23:51" />
-    <file relUrl="Content/themes/base/jquery.ui.selectable.css" publishTime="10/08/2012 21:06:29" />
+    <file relUrl="less/bootstrap/component-animations.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="bin/Microsoft.Web.Infrastructure.dll" publishTime="01/05/2011 15:45:38" />
     <file relUrl="Scripts/MicrosoftMvcValidation.debug.js" publishTime="09/29/2012 14:34:41" />
-    <file relUrl="less/bootstrap/progress-bars.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Content/themes/base/minified/images/ui-bg_glass_65_ffffff_1x400.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Scripts/jquery.unobtrusive-ajax.js" publishTime="09/29/2012 14:34:40" />
     <file relUrl="Content/bootstrap.css" publishTime="06/23/2012 09:26:02" />
     <file relUrl="packages.config" publishTime="01/06/2013 16:49:19" />
-    <file relUrl="bin/EntityFramework.xml" publishTime="10/08/2012 21:06:39" />
+    <file relUrl="Content/themes/base/jquery.ui.dialog.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="bin/Newtonsoft.Json.xml" publishTime="01/06/2013 16:49:19" />
     <file relUrl="Content/themes/base/minified/images/ui-icons_2e83ff_256x240.png" publishTime="10/08/2012 21:06:29" />
-    <file relUrl="bin/dotless.Core.dll" publishTime="10/08/2012 21:38:36" />
     <file relUrl="Content/themes/base/minified/images/ui-bg_glass_55_fbf9ee_1x400.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Content/themes/base/images/ui-icons_222222_256x240.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Content/themes/base/minified/jquery.ui.tabs.min.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Content/themes/base/minified/images/ui-icons_cd0a0a_256x240.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="less/bootstrap/code.less" publishTime="01/08/2013 22:32:08" />
-    <file relUrl="Scripts/jquery.validate.unobtrusive.js" publishTime="09/29/2012 14:34:40" />
+    <file relUrl="Content/themes/base/minified/jquery.ui.resizable.min.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Scripts/jquery.validate.unobtrusive.min.js" publishTime="09/29/2012 14:34:40" />
     <file relUrl="Views/Speakers/Detail.cshtml" publishTime="01/06/2013 21:25:39" />
     <file relUrl="Content/themes/base/minified/images/ui-bg_glass_75_e6e6e6_1x400.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Views/_ViewStart.cshtml" publishTime="09/29/2012 14:34:41" />
     <file relUrl="img/bg_sponsors.jpg" publishTime="06/19/2012 14:22:21" />
-    <file relUrl="Scripts/modernizr-2.6.2.js" publishTime="10/08/2012 21:06:19" />
+    <file relUrl="img/hdr_silver.png" publishTime="06/23/2012 08:19:21" />
     <file relUrl="Scripts/jquery-1.8.2-vsdoc.js" publishTime="10/08/2012 21:06:44" />
     <file relUrl="Content/themes/base/jquery.ui.autocomplete.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="img/hdr_sponsors.png" publishTime="06/11/2012 19:44:06" />
     <file relUrl="less/bootstrap/pagination.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="img/hdr_vendor_table.png" publishTime="06/24/2012 21:17:52" />
-    <file relUrl="Scripts/jquery-ui-1.8.24.js" publishTime="10/08/2012 21:06:29" />
+    <file relUrl="Content/themes/base/jquery.ui.selectable.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Scripts/less-1.3.3.min.js" publishTime="01/08/2013 22:32:07" />
-    <file relUrl="Views/Home/About.cshtml" publishTime="09/29/2012 14:34:41" />
-    <file relUrl="less/bootstrap/forms.less" publishTime="01/08/2013 22:32:08" />
+    <file relUrl="Content/themes/base/jquery.ui.progressbar.css" publishTime="10/08/2012 21:06:29" />
+    <file relUrl="Scripts/modernizr-2.6.2.js" publishTime="10/08/2012 21:06:19" />
     <file relUrl="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Content/themes/base/minified/jquery.ui.dialog.min.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Scripts/jquery.validate-vsdoc.js" publishTime="10/08/2012 21:06:33" />
     <file relUrl="Content/themes/base/jquery.ui.theme.css" publishTime="10/08/2012 21:06:29" />
-    <file relUrl="Scripts/jquery.validate.min.js" publishTime="10/08/2012 21:06:33" />
     <file relUrl="Content/themes/base/images/ui-icons_454545_256x240.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Content/themes/base/minified/images/ui-bg_glass_75_dadada_1x400.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Content/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Views/Account/ChangePassword.cshtml" publishTime="09/29/2012 14:34:41" />
     <file relUrl="Views/Shared/Error.cshtml" publishTime="09/29/2012 14:34:41" />
     <file relUrl="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png" publishTime="10/08/2012 21:06:29" />
-    <file relUrl="less/bootstrap/component-animations.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Scripts/bootstrap/collapse.js" publishTime="06/12/2012 03:28:42" />
     <file relUrl="img/logo_telerik.png" publishTime="01/12/2011 13:31:48" />
-    <file relUrl="less/bootstrap/wells.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png" publishTime="10/08/2012 21:06:29" />
-    <file relUrl="less/bootstrap/responsive-767px-max.less" publishTime="01/08/2013 22:32:08" />
+    <file relUrl="less/bootstrap/wells.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="img/hdr_page_sponsors.png" publishTime="06/24/2012 20:16:46" />
+    <file relUrl="Content/responsive.css" publishTime="06/23/2012 09:26:02" />
     <file relUrl="Content/themes/base/minified/images/ui-icons_888888_256x240.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Scripts/bootstrap/carousel.js" publishTime="06/12/2012 03:28:42" />
+    <file relUrl="less/bootstrap/progress-bars.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Content/themes/base/jquery.ui.core.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="less/bootstrap/button-groups.less" publishTime="01/08/2013 22:32:07" />
-    <file relUrl="less/bootstrap/alerts.less" publishTime="01/08/2013 22:32:07" />
     <file relUrl="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Content/themes/base/minified/jquery.ui.selectable.min.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Views/Sponsor/Index.cshtml" publishTime="01/08/2013 22:32:07" />
     <file relUrl="Views/Shared/_Layout.cshtml" publishTime="01/08/2013 22:32:07" />
     <file relUrl="Content/themes/base/minified/images/ui-bg_glass_95_fef1ec_1x400.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Content/themes/base/images/ui-icons_cd0a0a_256x240.png" publishTime="10/08/2012 21:06:29" />
-    <file relUrl="Scripts/bootstrap/typeahead.js" publishTime="06/12/2012 03:28:42" />
-    <file relUrl="Scripts/jquery-ui-1.8.24.min.js" publishTime="10/08/2012 21:06:29" />
-    <file relUrl="bin/LRTechFest.pdb" publishTime="01/08/2013 22:43:20" />
+    <file relUrl="less/bootstrap/pager.less" publishTime="01/08/2013 22:32:08" />
+    <file relUrl="bin/LRTechFest.pdb" publishTime="01/09/2013 21:32:29" />
     <file relUrl="Content/themes/base/jquery.ui.accordion.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Scripts/bootstrap/button.js" publishTime="06/12/2012 03:28:42" />
     <file relUrl="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Scripts/bootstrap/modal.js" publishTime="06/12/2012 03:28:42" />
     <file relUrl="less/bootstrap/carousel.less" publishTime="01/08/2013 22:32:08" />
-    <file relUrl="img/hdr_bronze.jpg" publishTime="06/11/2012 19:47:21" />
+    <file relUrl="Scripts/bootstrap/dropdown.js" publishTime="06/12/2012 03:28:42" />
+    <file relUrl="img/spkrs/michael-wiley.jpg" publishTime="01/06/2013 21:25:39" />
     <file relUrl="Content/themes/base/minified/images/ui-icons_454545_256x240.png" publishTime="10/08/2012 21:06:29" />
-    <file relUrl="Content/themes/base/minified/jquery.ui.resizable.min.css" publishTime="10/08/2012 21:06:29" />
+    <file relUrl="Scripts/bootstrap/typeahead.js" publishTime="06/12/2012 03:28:42" />
     <file relUrl="Content/themes/base/minified/jquery.ui.core.min.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="img/spkrs/jonathan-goodman.png" publishTime="01/06/2013 21:25:39" />
-    <file relUrl="less/bootstrap/responsive-navbar.less" publishTime="01/08/2013 22:32:08" />
+    <file relUrl="Content/themes/base/minified/jquery.ui.datepicker.min.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Content/Site.css" publishTime="09/29/2012 14:34:40" />
+    <file relUrl="img/logo_argov.png" publishTime="01/09/2013 21:32:19" />
+    <file relUrl="Scripts/jquery.validate.unobtrusive.js" publishTime="09/29/2012 14:34:40" />
     <file relUrl="bin/System.Web.WebPages.Razor.dll" publishTime="01/05/2011 15:45:38" />
     <file relUrl="less/bootstrap/mixins.less" publishTime="01/08/2013 22:32:08" />
-    <file relUrl="Scripts/MicrosoftAjax.debug.js" publishTime="09/29/2012 14:34:41" />
+    <file relUrl="bin/EntityFramework.xml" publishTime="10/08/2012 21:06:39" />
     <file relUrl="less/bootstrap/grid.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="less/bootstrap/accordion.less" publishTime="01/08/2013 22:32:07" />
-    <file relUrl="less/bootstrap/popovers.less" publishTime="01/08/2013 22:32:08" />
+    <file relUrl="less/bootstrap/variables.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Content/themes/base/jquery.ui.button.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Scripts/bootstrap/alert.js" publishTime="06/12/2012 03:28:42" />
     <file relUrl="bin/EntityFramework.dll" publishTime="10/08/2012 21:06:39" />
     <file relUrl="img/hdr_page_speakers_call.png" publishTime="10/08/2012 23:00:42" />
     <file relUrl="Content/themes/base/jquery.ui.slider.css" publishTime="10/08/2012 21:06:29" />
-    <file relUrl="less/bootstrap/tables.less" publishTime="01/08/2013 22:32:08" />
+    <file relUrl="bin/LRTechFest.dll" publishTime="01/09/2013 21:32:29" />
+    <file relUrl="less/bootstrap/reset.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="img/logo_idealoop.png" publishTime="06/19/2012 14:37:00" />
     <file relUrl="Content/themes/base/images/ui-icons_888888_256x240.png" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Scripts/bootstrap/bootstrap.min.js" publishTime="06/12/2012 03:28:42" />
-    <file relUrl="Scripts/bootstrap/dropdown.js" publishTime="06/12/2012 03:28:42" />
-    <file relUrl="Content/themes/base/jquery.ui.progressbar.css" publishTime="10/08/2012 21:06:29" />
+    <file relUrl="less/bootstrap/responsive-767px-max.less" publishTime="01/08/2013 22:32:08" />
+    <file relUrl="bin/dotless.Core.dll" publishTime="10/08/2012 21:38:36" />
     <file relUrl="img/bg_save_date_green.png" publishTime="06/17/2012 16:41:00" />
     <file relUrl="less/bootstrap/responsive-1200px-min.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="speakers.json" publishTime="01/06/2013 21:25:39" />
     <file relUrl="less/bootstrap/close.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="bin/System.Web.Routing.dll" publishTime="03/18/2010 20:31:26" />
-    <file relUrl="img/teal_info_bg.jpg" publishTime="06/11/2012 19:08:12" />
-    <file relUrl="less/bootstrap/reset.less" publishTime="01/08/2013 22:32:08" />
-    <file relUrl="Content/responsive.css" publishTime="06/23/2012 09:26:02" />
+    <file relUrl="less/bootstrap/tooltip.less" publishTime="01/08/2013 22:32:08" />
+    <file relUrl="img/hdr_bronze.jpg" publishTime="06/11/2012 19:47:21" />
+    <file relUrl="less/bootstrap/alerts.less" publishTime="01/08/2013 22:32:07" />
     <file relUrl="less/bootstrap/thumbnails.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="bin/System.Web.Helpers.dll" publishTime="01/05/2011 15:45:38" />
-    <file relUrl="Content/themes/base/minified/images/ui-icons_222222_256x240.png" publishTime="10/08/2012 21:06:29" />
+    <file relUrl="Content/themes/base/jquery.ui.base.css" publishTime="10/08/2012 21:06:29" />
     <file relUrl="less/bootstrap/bootstrap.less" publishTime="01/08/2013 22:32:07" />
     <file relUrl="img/hdr_silver.jpg" publishTime="06/11/2012 19:47:47" />
-    <file relUrl="img/hdr_silver.png" publishTime="06/23/2012 08:19:21" />
+    <file relUrl="Scripts/jquery-ui-1.8.24.min.js" publishTime="10/08/2012 21:06:29" />
     <file relUrl="img/glyphicons-halflings-white.png" publishTime="06/12/2012 03:28:40" />
-    <file relUrl="Views/Home/Index.cshtml" publishTime="01/08/2013 22:32:07" />
+    <file relUrl="Views/Home/Index.cshtml" publishTime="01/09/2013 21:32:19" />
     <file relUrl="less/bootstrap/scaffolding.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="Content/themes/base/minified/images/ui-bg_flat_0_aaaaaa_40x100.png" publishTime="10/08/2012 21:06:29" />
-    <file relUrl="bin/LRTechFest.dll" publishTime="01/08/2013 22:43:20" />
-    <file relUrl="Scripts/bootstrap/scrollspy.js" publishTime="06/12/2012 03:28:42" />
-    <file relUrl="bin/System.Web.Mvc.dll" publishTime="01/05/2011 17:42:16" />
+    <file relUrl="less/bootstrap/forms.less" publishTime="01/08/2013 22:32:08" />
+    <file relUrl="Scripts/MicrosoftAjax.debug.js" publishTime="09/29/2012 14:34:41" />
+    <file relUrl="Scripts/jquery.validate.min.js" publishTime="10/08/2012 21:06:33" />
     <file relUrl="Views/Account/Register.cshtml" publishTime="09/29/2012 14:34:41" />
     <file relUrl="less/bootstrap/layouts.less" publishTime="01/08/2013 22:32:08" />
-    <file relUrl="Content/themes/base/minified/jquery.ui.button.min.css" publishTime="10/08/2012 21:06:29" />
+    <file relUrl="Scripts/jquery-ui-1.8.24.js" publishTime="10/08/2012 21:06:29" />
     <file relUrl="Scripts/jquery.unobtrusive-ajax.min.js" publishTime="09/29/2012 14:34:40" />
     <file relUrl="Views/Account/LogOn.cshtml" publishTime="09/29/2012 14:34:41" />
-    <file relUrl="Content/themes/base/jquery.ui.base.css" publishTime="10/08/2012 21:06:29" />
-    <file relUrl="Content/themes/base/minified/jquery.ui.datepicker.min.css" publishTime="10/08/2012 21:06:29" />
+    <file relUrl="less/bootstrap/tables.less" publishTime="01/08/2013 22:32:08" />
+    <file relUrl="less/bootstrap/hero-unit.less" publishTime="01/08/2013 22:32:08" />
     <file relUrl="img/hdr_platinum.jpg" publishTime="06/11/2012 19:50:31" />
     <file relUrl="bin/System.Web.Mvc.xml" publishTime="02/09/2011 11:26:24" />
     <file relUrl="Content/themes/base/minified/images/ui-bg_highlight-soft_75_cccccc_1x100.png" publishTime="10/08/2012 21:06:29" />

@@ -91,10 +91,8 @@ body {
 }
 
 
-/* 224 x 61 */
-
 .sponsors{
-	height:660px;
+	min-height:660px;
 	background: url("../img/bg_sponsors.jpg") repeat center center; 
 	
 	.container {
@@ -177,7 +175,7 @@ body {
 		display: table-cell;
 		vertical-align: middle;
 		text-align: center;
-		height: 100px;
+		height: 80px;
 		width:223px;
 	}
 }
@@ -208,7 +206,7 @@ footer {
 	.siteSponsor p{
 		margin-top: 48px;
 		height:58px;
-		width: 320px;
+		min-width: 320px;
 		background: url("../img/logo_by_idealoop.png") no-repeat center right ;
 		text-indent:-9999px;
 	}
@@ -349,50 +347,99 @@ footer {
 
 }
 
+@media (max-width: 1024px) {
+	.sponsors{
+		.platinum {
+			padding-left: 20px;
+		}
+	}
+}
 
-@media (max-width: 480px) {
+@media (max-width: 979px) {
 
 	.hero-unit {
-		text-indent: 0;
-		color: white;
-		padding: 5px;
-		
+		.event-more-info {
+			height:90px;
+		}
+		.event-more-info .row {
+			background: url("../img/bg_save_date_callout_mid.jpg") no-repeat center center ;	
+			height:90px;
+		}
 		.event-info {
-			background-image: none;
-			height:auto;
+			background: url("../img/bg_callout_skyline_mid.jpg") no-repeat center center;
+			height:380px;
+		}
+	}
+
+	.event-highlight { 
+		h1 {
+			height:48px;
+			text-indent:-9999px;
+			margin:30px auto 30px auto;
+			background: url("../img/hdr_days_tracks_peers_mid.png") no-repeat center center ;	
+		}
+	}
+
+	
+}
+
+
+
+@media (max-width: 767px) {
+
+	.navbar
+	{
+		.navbar-inner{
+			padding: 0;
+		}
+		.brand {
+			margin-left:10px;
+		}
+	}
+
+	.hero-unit {
+		h1, h2, h3 {
+			font-size:1.4em;
+			line-height:1.6em;
+			margin:0;
+		}
+		line-height:1.2em;
+		text-indent: 0;
+		.row {
+			padding: 10px;
+			color:@white;
 		}
 		.event-more-info {
-			background-image: none;
 			height:auto;
 		}
 		.event-more-info .row {
-			background-image: none;
+			background: none;	
+			height:auto;
+		}
+		.event-info {
+			background:none;
 			height:auto;
 		}
 	}
 
 	.event-highlight {
 		height:auto;
+		font-family: @altFontFamily;
 		color:@white;
-		.container {
-			width: auto;
-		}
-		
-		.span4, .span4:last-child {
-			//width: auto;
-			padding: 0 5px;
-		}
-		
+		padding: 10px;
+
+
 		h1 {
+			font-size: 1.4em;
 			height:auto;
-			text-indent: 0;
-			margin:10px auto 10px auto;
-			background-image: none;
-			padding: 0 5px;
+			text-indent:0;
+			margin:10px auto;
+			background: none ;	
 		}
-		
-	}
 	
+	}
+
+
 	.sponsors{
 		height:auto;
 		padding: 5px;
@@ -417,5 +464,32 @@ footer {
 
 		
 	}
+}
+
+@media (max-width: 480px) {
+
+	.hero-unit {
+		text-indent: 0;
+		color: white;
+		//padding: 5px;
+		
+
+	}
+
+
+.navbar {
+	.navbar-inner {
+		min-height:auto;
+	}
+	.brand {
+		width:200px;
+		height:100px;
+		text-indent: -9999px;
+		background: url("../img/logo_lrtf_sm.png") no-repeat center center ;
+	}
+
+}
+
+
 	
 }
