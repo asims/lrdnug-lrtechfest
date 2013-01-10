@@ -193,6 +193,7 @@
     <Content Include="img\hdr_silver.png" />
     <Content Include="img\hdr_sponsors.png" />
     <Content Include="img\hdr_vendor_table.png" />
+    <Content Include="img\logo_argov.png" />
     <Content Include="img\logo_by_idealoop.png" />
     <Content Include="img\logo_idealoop.png" />
     <Content Include="img\logo_lrtf.png" />
