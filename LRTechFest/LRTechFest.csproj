@@ -173,8 +173,10 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="img\bg_callout_skyline.jpg" />
+    <Content Include="img\bg_callout_skyline_mid.jpg" />
     <Content Include="img\bg_page_content.jpg" />
     <Content Include="img\bg_save_date_callout.jpg" />
+    <Content Include="img\bg_save_date_callout_mid.jpg" />
     <Content Include="img\bg_save_date_green.png" />
     <Content Include="img\bg_sponsors.jpg" />
     <Content Include="img\glyphicons-halflings-white.png" />
@@ -182,6 +184,7 @@
     <Content Include="img\hdr_bronze.jpg" />
     <Content Include="img\hdr_bronze.png" />
     <Content Include="img\hdr_days_tracks_peers.png" />
+    <Content Include="img\hdr_days_tracks_peers_mid.png" />
     <Content Include="img\hdr_gold.jpg" />
     <Content Include="img\hdr_gold.png" />
     <Content Include="img\hdr_page_speakers_call.png" />
@@ -197,6 +200,7 @@
     <Content Include="img\logo_by_idealoop.png" />
     <Content Include="img\logo_idealoop.png" />
     <Content Include="img\logo_lrtf.png" />
+    <Content Include="img\logo_lrtf_sm.png" />
     <Content Include="img\logo_telerik.png" />
     <Content Include="img\spkrs\chris-koenig.png" />
     <Content Include="img\spkrs\jonathan-goodman.png" />
