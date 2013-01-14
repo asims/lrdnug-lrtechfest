@@ -179,6 +179,7 @@
     <Content Include="img\bg_save_date_callout_mid.jpg" />
     <Content Include="img\bg_save_date_green.png" />
     <Content Include="img\bg_sponsors.jpg" />
+    <Content Include="img\btn_register_today.png" />
     <Content Include="img\glyphicons-halflings-white.png" />
     <Content Include="img\glyphicons-halflings.png" />
     <Content Include="img\hdr_bronze.jpg" />
