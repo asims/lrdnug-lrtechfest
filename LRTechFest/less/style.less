@@ -289,9 +289,6 @@ footer {
 		height: 160px;
 		background: @teal;
 		
-		.container {
-		//max-width: 896px;
-		}
 	}
 	.content-header h1 {
 		height: 160px;
@@ -307,14 +304,9 @@ footer {
 		font-family: @altFontFamily;
 		padding: 60px 0;
 
-		.container {
-			//max-width: 896px;
-		}
 	}
 	
-	.content-container .row {
-		margin-left: 0;
-	}
+
 	.content-container .span4 {
 		//width:448px;
 		margin:0;
@@ -337,6 +329,15 @@ footer {
 		padding-left: 30px;
 	}
 	
+
+}
+
+
+.content-page.sponsor-us {
+	.content-header h1 {
+		background: url("../img/hdr_page_sponsors.png") @teal no-repeat left center;
+	}
+
 	.content-container table {
 		margin:70px 0;
 		color:@teal;
@@ -387,18 +388,20 @@ footer {
 		background: url("../img/hdr_vendor_table.png") #2f4e59 no-repeat center center;
 		text-indent:-9999px;
 	}
-}
 
 
-.content-page.sponsor-us {
-	.content-header h1 {
-			background: url("../img/hdr_page_sponsors.png") @teal no-repeat left center;
-	}
+
 }
 
 .content-page.speakers-call {
 	.content-header h1 {
 			background: url("../img/hdr_page_speakers_call.png") @teal no-repeat left center;
+	}
+}
+
+.content-page.schedule {
+	.content-header h1 {
+		background: url("../img/hdr_page_schedule.png") @teal no-repeat left center;
 	}
 }
 

@@ -10,10 +10,10 @@ namespace LRTechFest.Controllers
         //
         // GET: /Speakers/
 
-        //public ActionResult Index()
-        //{
-        //    return View();
-        //}
+        public ActionResult Index()
+        {
+            return RedirectToAction("List");
+        }
 
         public ActionResult Call()
         {
