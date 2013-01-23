@@ -31,6 +31,7 @@
          }
       ]
    },
+   /*
    {
 	"Id" : 3,
       "FirstName":"Shawn",
@@ -79,24 +80,33 @@
          }
       ]
    },
+   */
    {
    "Id" : 6,
       "FirstName":"LJ",
       "LastName":"Wilson",
       "Bio":"LJ is a long time open source developer (PHP, Unix based languages) that went the .NET route and ultimately wound up getting heavily involved with iOS development using Apple's native tools (Xcode, Obj-C).He currently works as an iOS & VB.NET programmer for Arkansas Children's Hospital",
       "Website":"http://irockios.com",
-      "Photo":"",
+      "Photo":"/img/spkrs/LJ-Wilson.jpg",
       "Presentations":[
          {
             "Track":"Mobile",
             "Topic":"iOS Development for the Enterprise",
-            "Description":"Covers the special considerations and infrastructure needs for developing iOS applications for the enterprise. It assumes that you have some experience with Xcode and Objective-C.  Some of the specific topics will include:"
-
+            "Description":"<p>Covers the special considerations and infrastructure needs for developing iOS applications for the enterprise. It assumes that you have some experience with Xcode and Objective-C. Some of the specific topics will include:</p> 
+			<ul><li>Setting up the Team</li>
+			<li>Certificates & Provisioning</li>
+			<li>Device Management</li>
+			<li>Device & User Authentication</li>
+			<li>App Management</li>
+			<li>Handling App Updates</li>
+			<li>Push Notifications</li>
+			<li>Example Enterprise Production Apps</li>
+			<li>Bonus - Setting up an internal App Store</li></ul>"
          },
          {
             "Track":"Mobile",
             "Topic":"Intro to iOS Development",
-            "Description":"This will be an entry level course developing in Objective-C for the iOS platform. It assumes that you have a background in object oriented programming and understand the basics of OOP. We will cover learning your way around Xcode and how to create projects for iOS. Some of the specific topics will include:Differences between the various Xcode project templatesHow Xcode manages the project structureHow methods are declared and messaged to in Objective-CIntroduction to Storyboards and ARCThe basics of View Controllers and supporting structures like Navigation Controllers and Tab Bar ControllersHow data is passed along in an application and how to manage the application's flowHow to use the variety of UI objects available to interact with the userWe will go through a complete application development process.If time allows, we will also cover more advanced topics like Core Data and Provisioning."
+            "Description":"<p>This will be an entry level course developing in Objective-C for the iOS platform. It assumes that you have a background in object oriented programming and understand the basics of OOP. We will cover learning your way around Xcode and how to create projects for iOS. Some of the specific topics will include:</p> <ul><li>Differences between the various Xcode project templates </li><li>How Xcode manages the project structure </li><li>How methods are declared and messaged to in Objective-C </li><li>Introduction to Storyboards and ARC </li><li>The basics of View Controllers and supporting structures like Navigation Controllers and Tab Bar Controllers </li><li>How data is passed along in an application and how to manage the application's flow</li><li>How to use the variety of UI objects available to interact with the user </li></ul><p>We will go through a complete application development process. If time allows, we will also cover more advanced topics like Core Data and Provisioning.</p>"
 
          }
       ]
@@ -141,7 +151,7 @@
          }
       ]
    },
-   {
+   /*{
    "Id" : 8,
       "FirstName":"Chris",
       "LastName":"Koenig",
@@ -158,8 +168,8 @@
 
          }
       ]
-   },
-   {
+   },*/
+   /*{
    "Id" : 9,
       "FirstName":"Christopher",
       "LastName":"Meiklejohn",
@@ -174,7 +184,7 @@
 
          }
       ]
-   },
+   },*/
    {
    "Id" : 10,
       "FirstName":"Brian",
@@ -197,7 +207,7 @@
          }
       ]
    },
-   {
+   /*{
    "Id" : 11,
       "FirstName":"Jonathan",
       "LastName":"Goodman",
@@ -227,7 +237,7 @@
 
          }
       ]
-   },
+   },*/
    {
    "Id" : 12,
       "FirstName":"Michael",
@@ -244,7 +254,7 @@
          }
       ]
    },
-   {
+   /*{
    "Id" : 13,
       "FirstName":"Joshua",
       "LastName":"Goldbard",
@@ -259,22 +269,41 @@
 
          }
       ]
-   },
+   },*/
    {
-   "Id" : 14,
-      "FirstName":"David",
-      "LastName":"Copeland",
-      "Bio":"David is a programmer and author. He speaks frequently at national and regional conferences and currently spends his days as a tech lead for payment processing at LivingSocial in Washington, DC. He's written applications in C, C++, Perl, Ruby, Scala, and many others, on large and small teams. He's reviewed a LOT more code than he's written. As a developer, he believes in clean code, making it right, providing a great user experience and using the right tool for the job. As an author, he insists on the Oxford Comma, tries to avoid semi-colons, and really hates title case.",
-      "Website":"http://www.naildrivin5.com/blog",
-      "Photo":"",
+   "Id" : 24,
+      "FirstName":"Sean",
+      "LastName":"Townsend",
+      "Bio":"Sean is a mobile developer originally from London who is currently enjoying life at Rockfish Interactive developing apps on the Android platform from Google. His first ever computer program was a text adventure he wrote in BASIC when he was 14 on the venerable Amstrad CPC464, but his first real job after University was working for the University of Essex in England writing C drivers to pull Census data off magnetic tapes. He progressed to C++ and when the web took off in the mid-90s, got his hands dirty with PERL and cgi-bin, and later, very early versions of Java and Javascript. He spent ten years working at Acxiom in Europe and the US on RedHat Linux grid networks to parallel process large datasets and writing performance-critical data matching software. Mostly in C++, eventually in Java. He still loves PERL, hates Threads, and thinks Android is the bee's knees.",
+      "Website":"",
+      "Photo":"/img/spkrs/sean-townsend.png",
       "Presentations":[
          {
-            "Track":"IT Professional",
-            "Topic":"Technical Debt vs. Slop - Doing it right on schedule",
-            "Description":"Do you find yourself looking at something less than ideal and just calling it technical debt? Do you look at work you did a few months and only then realize it's not quite right?  Do youpropose \"\"hacky\"\" solutions to appease a project manager eager to get something done quickly? Are you scolding by your team lead for trying to make \"\"perfect\"\" code?This talk will straighten ALL of that out.  We'll talk about the difference between technicaldebt and sloppy coding, and dispel the myth of perfect code.  I'll arm you with the confidenceto deliver quality, and the sense to keep from over-engineering and getting lost chasingthe dream of beautiful code. Through the simple acts of testing, editing, and review, you'lldeliver clean code on a schedule, and have the confidence to insist on it."
+            "Track":"Mobile",
+            "Topic":"Beginners Guide To Developing For Android",
+            "Description":"This presentation is a high level overview of the Android platform aimed at developers who are either genuinely interested in staring to develop their own apps, or are just plain curious about how Android works. The paper wont be digging into any code or anything at that level, rather it'll walk through some of the core Android concepts and design decisions, and will scratch the surface of some of the key classes (Activity, View, Fragment) and frameworks (Location, Media) that Android developers use every day. It'll cover a little bit about the development environment and tools Google have provided to help programmers debug and analyse, along with some of the key challenges in developing for mobile devices and challenges specific to Android in particular. "
 
          }
       ]
    },
-  
+   {
+   "Id" : 25,
+      "FirstName":"Latish",
+      "LastName":"Sehgal",
+      "Bio":"Latish is a .NET consultant with Improving Enterprises and very passionate about software development and solving customer problems. He also leads the Dallas C# SIG. He can be reached via his blog at http://www.dotnetsurfers.com/ or twitter (http://twitter.com/latish).",
+      "Website":"http://www.dotnetsurfers.com/",
+      "Photo":"/img/spkrs/Latish-Sehgal.png",
+      "Presentations":[
+         {
+            "Track":"Desktop",
+            "Topic":"Programming with Kinect for Windows: From Hello World to Lightsabers in 60 minutes",
+            "Description":"Kinect for Windows enables all kinds of new applications & experiences. Come to this session to find out how you can start using the Kinect SDK today. This C# code focused session will dive into the different aspects of the Kinect API. We’ll cover color and depth cameras, skeletal tracking, working with audio and a lot of cool demoes. "
+         }
+         ,{
+            "Track":"Desktop",
+            "Topic":"The .NET Ninja's Toolbelt",
+            "Description":"As developers, we all have our favorite utilities, some used occasionally and then there are others that we refuse to work without. We might not use all of them everyday, but a good developer should know his options when the need arises. In this session, we'll go through the tools, utilities and hacks that can make you much more productive as a .Net developer."
+         }
+      ]
+   },
 ]

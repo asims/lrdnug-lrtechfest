@@ -15,6 +15,13 @@
 
 <div class="content-container">
     <div class="container">
+        <div class="row">
+            <h3>Here they are, your confirmed speakers for Little Rock Tech Fest!</h3>
+            <p>Read on to learn more about our presenters and the topics they propose to present. Speakers with multiple topics may give one or all talks, depending on room availability. Our official schedule will be announced 1 - 2 weeks prior to the event. If you are registered to attend, we will send you an email notification when we make this information available.</p>
+            <p>Are you talented and have something to share? @Html.ActionLink("Consider speaking at our event", "Call", "Speakers").</p>
+            <p>We'll update this page as often as we can confirm speakers. Check back often! Speakers were last updated on <b>1/23/13 at 2:30 PM</b>.</p>
+            <hr />
+        </div>
 
         @foreach (var s in Model.OrderBy(x => x.LastName))
         {
@@ -25,7 +32,7 @@
             <div class="row alt">
                 <div class="span3">
                     @if (!string.IsNullOrEmpty(s.Photo)){
-                    <img src= "@Url.Content(s.Photo)" alt="@s.FullName" width="175"; />
+                    <img src= "@Url.Content(s.Photo)" alt="@s.FullName" width="175" style="background-color:#fff;" />
                     }
                     @if (!string.IsNullOrEmpty(s.Website))
                     {
