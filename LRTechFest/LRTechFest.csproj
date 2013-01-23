@@ -206,10 +206,14 @@
     <Content Include="img\logo_idealoop.png" />
     <Content Include="img\logo_lrtf.png" />
     <Content Include="img\logo_lrtf_sm.png" />
+    <Content Include="img\logo_mainstream.png" />
     <Content Include="img\logo_telerik.png" />
     <Content Include="img\spkrs\chris-koenig.png" />
     <Content Include="img\spkrs\jonathan-goodman.png" />
+    <Content Include="img\spkrs\Latish-Sehgal.png" />
+    <Content Include="img\spkrs\LJ-Wilson.jpg" />
     <Content Include="img\spkrs\michael-wiley.jpg" />
+    <Content Include="img\spkrs\sean-townsend.png" />
     <Content Include="img\teal_info_bg.jpg" />
     <Content Include="README.jQuery.vsdoc.txt" />
     <Content Include="Scripts\bootstrap\alert.js" />
