@@ -206,6 +206,7 @@
     <Content Include="img\logo_idealoop.png" />
     <Content Include="img\logo_lrdnug.png" />
     <Content Include="img\logo_lrtf.png" />
+    <Content Include="img\logo_lrtf_fb.jpg" />
     <Content Include="img\logo_lrtf_sm.png" />
     <Content Include="img\logo_mainstream.png" />
     <Content Include="img\logo_telerik.png" />

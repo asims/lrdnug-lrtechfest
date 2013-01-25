@@ -28,9 +28,9 @@ namespace LRTechFest.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-            return View();
-        }
+        //public ActionResult About()
+        //{
+        //    return View();
+        //}
     }
 }
