@@ -15,16 +15,20 @@ namespace LRTechFest.Controllers
             // get total attending
             // https://www.eventbrite.com/xml/event_get?app_key=U7UL7NQU43WMCHITWL&id=4169591360
 
+            try
+            {
+                var json = new WebClient().DownloadString("https://www.eventbrite.com/json/event_get?app_key=U7UL7NQU43WMCHITWL&id=4169591360");
+                var jsonObject = JObject.Parse(json);
 
-            var json = new WebClient().DownloadString("https://www.eventbrite.com/json/event_get?app_key=U7UL7NQU43WMCHITWL&id=4169591360");
-            var jsonObject = JObject.Parse(json);
+                // expando style instance you can just 'use' properties
+                dynamic eb = jsonObject["event"];
 
-            // expando style instance you can just 'use' properties
-            dynamic eb = jsonObject["event"];
-
-            ViewBag.NumberRegistered = eb.num_attendee_rows ?? "0";
-
-            
+                ViewBag.NumberRegistered = eb.num_attendee_rows ?? "190";
+            }
+            catch (Exception ex)
+            {
+                ViewBag.NumberRegistered = "190";
+            }
             return View();
         }
 
