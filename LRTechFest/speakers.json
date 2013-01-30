@@ -290,7 +290,7 @@
    "Id" : 25,
       "FirstName":"Latish",
       "LastName":"Sehgal",
-      "Bio":"Latish is a .NET consultant with Improving Enterprises and very passionate about software development and solving customer problems. He also leads the Dallas C# SIG. He can be reached via his blog at http://www.dotnetsurfers.com/ or twitter (http://twitter.com/latish).",
+      "Bio":"Latish is a .NET consultant with Improving Enterprises and very passionate about software development and solving customer problems. He also leads the Dallas C# SIG. He can be reached via his blog at <a href=\"http://www.dotnetsurfers.com/\">http://www.dotnetsurfers.com/</a> or twitter (<a href=\"https://twitter.com/latish\">http://twitter.com/latish</a>).",
       "Website":"http://www.dotnetsurfers.com/",
       "Photo":"/img/spkrs/Latish-Sehgal.png",
       "Presentations":[
@@ -303,6 +303,50 @@
             "Track":"Desktop",
             "Topic":"The .NET Ninja's Toolbelt",
             "Description":"As developers, we all have our favorite utilities, some used occasionally and then there are others that we refuse to work without. We might not use all of them everyday, but a good developer should know his options when the need arises. In this session, we'll go through the tools, utilities and hacks that can make you much more productive as a .Net developer."
+         }
+      ]
+   },
+   {
+   "Id" : 28,
+      "FirstName":"Mike",
+      "LastName":"Green",
+      "Bio":"<p>Mike has been a UI Developer for 12 years. In that time he has seen the web evolve into something truly amazing. He looks forward to participating in the future progress of modern web development. He loves standards, but not at the cost of true innovation. Nevertheless, he does still love standards. He is also very involved in the development of mobile expericences, including gaming and touch enabled marketing.</p>
+<p>Mike's specialties include CSS / XHTML, Interaction Design, jQuery, Quick-turnaround PSD to XHTML, HTML5 and CSS3.</p>
+",
+      "Website":"",
+      "Photo":"",
+      "Presentations":[
+         {
+            "Track":"Web",
+            "Topic":"Resolution First, Devices Later",
+            "Description":"<p>To discuss the ever evolving device revolution and how it applies to the modern web developer. Topics include: Responsive design strategies, mobile first ideology, HTML5 use in this field and CSS techniques to ensure device adoption.</p>"
+
+         }
+      ]
+   },
+   {
+   "Id" : 30,
+      "FirstName":"Jay",
+      "LastName":"Callicott",
+      "Bio":"<p>Jay Callicott is a Lead Drupal Architect for Mediacurrent, an Atlanta, GA based Drupal consultancy. Jay lives in Little Rock, AR and has been a Drupal fanatic for over 7 years (since version 4.6). As a side project, Jay is the lead developer for OpenChurch, a Drupal distribution for religious organizations. You can follow Jay at <a href=\"https://twitter.com/drupalninja\">@drupalninja</a> on Twitter! </p>
+",
+      "Website":"http://www.mediacurrent.com/blog/all/9",
+      "Photo":"/img/spkrs/jay-callicott.jpg",
+      "Presentations":[
+         {
+            "Track":"Web",
+            "Topic":"Resolution First, Devices Later",
+            "Description":"<p>This session will be for developers that are interesting in learning about Drupal, the popular open source CMS. We will draw some material from the popular \"Hello Drupal!\" course, in a condensed format (see <a href=\"http://training.acquia.com/hellodrupal\">http://training.acquia.com/hellodrupal</a>). </p>
+
+ <p>The goals for this session will be the following:</p>
+ <ul>
+<ol> Understand the basics of \"What is Drupal?\"</ol>
+<ol> See how and why organizations are using Drupal</ol>
+<ol> Walk through the basics of how Drupal works and how to use the CMS</ol>
+<ol> Perform a small demo of how to download and install Drupal.</ol>
+ </ul>
+<p>Developers of all experience levels are welcome including non-technical users interested in Drupal. Ideally this session will get developers a good grasp of what Drupal is and how they can get started.</p>"
+
          }
       ]
    },
