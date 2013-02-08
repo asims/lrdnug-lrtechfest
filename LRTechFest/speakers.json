@@ -343,4 +343,19 @@
          }
       ]
    },
+   {
+   "Id" : 28,
+      "FirstName":"Michael",
+      "LastName":"Paladino",
+      "Bio":"<p>As a founder and Chief Technology Officer, Michael Paladino leads the charge in ensuring RevUnit is pushing the bounds of technology while closely scrutinizing industry trends for what’s next. Michael takes great pains to understand the business challenge and technical landscape in order to architect the right solution for RevUnit's clients.</p>",
+      "Website":"",
+      "Photo":"/img/spkrs/michael-paladino.jpg",
+      "Presentations":[
+         {
+            "Track":"Tech Entrepreneurship",
+            "Topic":"Starting a Tech Company - What's Awesome and What's Not",
+            "Description":"<p>Starting a technology-based company can be extremely rewarding. However, there are a number of surprises that can popup during the process. We'll go through some key learnings based on real-world experience in starting a technology-focused agency and attempt to help you plan for those surprises.</p>"
+         }
+      ]
+   }
 ]
