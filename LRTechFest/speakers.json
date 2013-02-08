@@ -207,13 +207,10 @@
          }
       ]
    },
-   /*{
+   {
    "Id" : 11,
       "FirstName":"Jonathan",
       "LastName":"Goodman",
-      "Track":"Web",
-      "Topic":"Getting the Most Out of Google Analytics",
-      "Description":"This presentation provides the audience with real-life Google Analytics data from a client performance case study. The study provides in-page analysis of visitor behavior for improved bounce rate, understanding when you need to focus on mobile, as well as red flags in site IA and design. A simple step-by-step implementation of custom alerts will also be discussed.Takeaways: How to Improve Bounce Rate,Understand When You Need to Pay Attention to MobileImprove IA and Design Based On In-Page Analytics Set Up Custom Alerts",
       "Bio":"Jonathan Goodman started his career over 20 years ago at the dawn of the Internet age producing websites for Fortune 500 companies. He is currently the President of Halyard Consulting, an Internet marketing firm, exclusively focused on WordPress development and search optimization. Jonathan holds an MBA from Fairleigh Dickinson University, an MS from the College of New Rochelle, and a BFA from the Ringling College of Art and Design. Jonathan spent five years as the professor of Internet marketing at the Silberman College of Business at Fairleigh Dickinson University. He has spoken at numerous conferences and conventions running the gamut from higher education symposiums to music industry conferences to WordPress WordCamps. Most recently he spoke about Schema at SMX East 2012.",
       "Website":"http://halyardconsulting.com",
       "Photo":"/img/spkrs/jonathan-goodman.png",
@@ -227,17 +224,11 @@
          {
             "Track":"Web",
             "Topic":"Schema - The Next Frontier for the Search Engines",
-            "Description":"In the beginning webmasters focused their attention on Schema reviews and events. Today, microdata is expanding at a phenomenal rate; incorporating information for products, organizations, people, places, creative works with support for an infinite number of future categories. WordPress, one of the most widely used website content management applications, makes it incredibly easy to add Schema data to your website. This presentation will focus on three implementations of microdata for WordPress including the social component of Yoast’s WordPress SEO Plugin, hcard data, and Geotagging. I will focus on the tricks and traps of getting microdata to work with an indepth look at the functions of each element and a review of the code through debugging tools including Google’s Rich Snippet’s Testing Tool. We’ll look into the future of Facebook Open Graph and see how it can be incorporated into a website without interfering with the other microdata elements as well as examples of debug using the Facebook developer tools."
-
-         },
-         {
-            "Track":"Web",
-            "Topic":"SEO for Beginners",
-            "Description":"Through client case studies I will show how the combined power of Google+ Authorship and Google Webmaster Tools is exactly what the search engines are looking for. This presentation will highlight Google’s rules of engagement and what they deem as acceptable SEO. An examination of technical metrics and updated optimization techniques will assure your SEO efforts are in compliance. The presentation will also discuss how to avoid and what to do with Panda and Penguin penalties.Takeaways:The Power of Google+ AuthorshipUsing Google Webmaster Tools for Quick IndexationHow to Avoid Panda and Penguin Penalties"
+            "Description":"In the beginning, webmasters focused their attention on Schema reviews and events. Today, microdata is expanding at a phenomenal rate; incorporating information for products, organizations, people, places, creative works with support for an infinite number of future categories. WordPress, one of the most widely used website content management applications, makes it incredibly easy to add Schema data to your website. This presentation will focus on three implementations of microdata for WordPress including the social component of Yoast’s WordPress SEO Plugin, hcard data, and Geotagging. We will focus on the tricks and traps of getting microdata to work with an indepth look at the functions of each element and a review of the code through debugging tools including Google’s Rich Snippet’s Testing Tool. We’ll look into the future of Facebook Open Graph and see how it can be incorporated into a website without interfering with the other microdata elements as well as examples of debug using the Facebook developer tools."
 
          }
       ]
-   },*/
+   },
    {
    "Id" : 12,
       "FirstName":"Michael",
