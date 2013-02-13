@@ -31,12 +31,11 @@
          }
       ]
    },
-   /*
    {
 	"Id" : 3,
       "FirstName":"Shawn",
       "LastName":"Weisfeld",
-      "Bio":"Shawn is passionate about building awesome line of business applications and websites with .NET technologies. He is currently a Microsoft C# MVP and founder of http://UserGroup.tv. Read his full bio at http://about.me/shawnweisfeld",
+      "Bio":"Shawn is passionate about building awesome line of business applications and websites with .NET technologies. He is currently a Microsoft C# MVP and founder of <a href=\"http://UserGroup.tv\">http://UserGroup.tv</a>. Read his full bio at <a href=\"http://about.me/shawnweisfeld\">http://about.me/shawnweisfeld</a>",
       "Website":"http://www.UserGroup.tv",
       "Photo":"",
       "Presentations":[
@@ -48,6 +47,7 @@
          }
       ]
    },
+      /*
    {
    "Id" : 4,
       "FirstName":"Lee",
@@ -261,6 +261,23 @@
          }
       ]
    },*/
+      {
+   "Id" : 21,
+      "FirstName":"Greg",
+      "LastName":"Jordan",
+      "Bio":"Manager of Web Development at Methodist Le Bonheur Healthcare, Greg has over 15 years of experience programming in various languages with a focus on native mobile & web development. Greg holds a Bachelor's degree and two Master's degrees, and is a Ph.D. candidate at the University of Memphis.",
+      "Website":"",
+      "Photo":"",
+      "Presentations":[
+         {
+            "Track":"Database",
+            "Topic":"Your Graph is Showing: The Growing Trend toward Graph Databases & Social Data",
+            "Description":"<p>NOSQL databases, such as MongoDB and Cassandra, have gained popularity as the data store for social networks and online communities because of their relative speed and simplicity. However, when creating connections in the data & understanding trends and commonalities, sites like Facebook and Twitter turn to graph databases.</p><p>
+In this discussion, we'll start with a quick overview of the database landscape and how graph databases fit within that landscape. Next, we'll dive into the world’s leading graph database, neo4j, and look at what how it solves complex, connected data problems. The discussion closes with an in-depth look at examples demonstrating the power, speed and simplicity of using graph databases.</p> "
+
+         }
+      ]
+   },
    {
    "Id" : 24,
       "FirstName":"Sean",
