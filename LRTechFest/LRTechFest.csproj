@@ -204,6 +204,7 @@
     <Content Include="img\logo_by_idealoop.png" />
     <Content Include="img\logo_codemagazine.png" />
     <Content Include="img\logo_eoff_tech.png" />
+    <Content Include="img\logo_gdh.png" />
     <Content Include="img\logo_github.png" />
     <Content Include="img\logo_halyard.png" />
     <Content Include="img\logo_idealoop.png" />
@@ -230,6 +231,8 @@
     <Content Include="img\spkrs\mike-green.png" />
     <Content Include="img\spkrs\randy-walker.jpg" />
     <Content Include="img\spkrs\sean-townsend.png" />
+    <Content Include="img\spkrs\shawn-weisfeld.jpg" />
+    <Content Include="img\spkrs\zach-mccormick.jpg" />
     <Content Include="img\teal_info_bg.jpg" />
     <Content Include="README.jQuery.vsdoc.txt" />
     <Content Include="Scripts\bootstrap\alert.js" />

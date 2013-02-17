@@ -37,7 +37,7 @@
       "LastName":"Weisfeld",
       "Bio":"Shawn is passionate about building awesome line of business applications and websites with .NET technologies. He is currently a Microsoft C# MVP and founder of <a href=\"http://UserGroup.tv\">http://UserGroup.tv</a>. Read his full bio at <a href=\"http://about.me/shawnweisfeld\">http://about.me/shawnweisfeld</a>",
       "Website":"http://www.UserGroup.tv",
-      "Photo":"",
+      "Photo":"/img/spkrs/shawn-weisfeld.jpg",
       "Presentations":[
          {
             "Track":"Web",
@@ -361,7 +361,7 @@ In this discussion, we'll start with a quick overview of the database landscape 
       ]
    },
    {
-   "Id" : 28,
+   "Id" : 34,
       "FirstName":"Michael",
       "LastName":"Paladino",
       "Bio":"<p>As a founder and Chief Technology Officer, Michael Paladino leads the charge in ensuring RevUnit is pushing the bounds of technology while closely scrutinizing industry trends for what’s next. Michael takes great pains to understand the business challenge and technical landscape in order to architect the right solution for RevUnit's clients.</p>",
@@ -372,6 +372,29 @@ In this discussion, we'll start with a quick overview of the database landscape 
             "Track":"Tech Entrepreneurship",
             "Topic":"Starting a Tech Company - What's Awesome and What's Not",
             "Description":"<p>Starting a technology-based company can be extremely rewarding. However, there are a number of surprises that can popup during the process. We'll go through some key learnings based on real-world experience in starting a technology-focused agency and attempt to help you plan for those surprises.</p>"
+         }
+      ]
+   },
+   {
+   "Id" : 35,
+      "FirstName":"Zach",
+      "LastName":"McCormick",
+      "Bio":"<p>I am a student at Vanderbilt University scheduled to graduate in Spring 2013 with a degree in Computer Science and Mathematics. I am currently interested in work in mobile computing and cyber security, as well as applied mathematics in finance. I plan on pursuing a Ph. D. in computer engineering. I enjoy teaching and sometimes give tutorials and lectures on Android or mobile development during the academic year.
+	  </p><p>
+Aside from academics, I own and operate a consulting company, Trailblazing Technology, Inc., in Nashville, TN, and consult for various organizations on different aspects of cloud computing and mobile applications.</p>",
+      "Website":"https://my.vanderbilt.edu/zachmccormick",
+      "Photo":"/img/spkrs/zach-mccormick.jpg",
+      "Presentations":[
+         {
+            "Track":"Mobile",
+            "Topic":"Introduction to the Android System Server: System Services",
+            "Description":"<p>Android is a Linux-based operating system designed primarily for touchscreen mobile devices such as smartphones and tablet computers. It is open source and released under the Apache license, thus anyone can take and modify Android to suit their needs. Modifications can be done for many reasons - to fit Android to new hardware, to add or remove features from the Android framework, or to learn how the internals of Android work, among others.
+			</p><p>
+This talk is an introduction to the System Server of Android. System Server is a process that is started after the kernel is loaded and after Dalvik is initialized and running (the Zygote process). Most (if not all) of the system services, such as the power manager, the activity manager, and the package manager, are all started by the System Server and run under the process of the System Server.
+</p><p>
+Individuals or organizations wishing to modify Android may very well want to add, modify, or remove these system services to accomplish their needs. One may for instance want to introduce an Audit Service to log system events for security purposes. Another may want to introduce a Two Way Radio Service to manage hardware concerns on a two-way radio running Android.
+</p><p>
+This talk will focus on a quick overview of the boot sequence of Android, the Dalvik Virtual Machine and how Services run in Android, how the System Server starts and manages system services, and will end with a code example to add a system service that listens for a certain Intent and displays a message on the screen.</p>"
          }
       ]
    }
