@@ -217,6 +217,7 @@
     <Content Include="img\logo_pluralsight.png" />
     <Content Include="img\logo_redgate.png" />
     <Content Include="img\logo_revunit.png" />
+    <Content Include="img\logo_techsmith.png" />
     <Content Include="img\logo_teksystems.png" />
     <Content Include="img\logo_telerik.png" />
     <Content Include="img\spkrs\brian-sullivan.jpg" />
