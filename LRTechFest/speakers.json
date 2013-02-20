@@ -151,24 +151,24 @@
          }
       ]
    },
-   /*{
+   {
    "Id" : 8,
-      "FirstName":"Chris",
-      "LastName":"Koenig",
-      "Bio":"<p>Chris Koenig is a Senior Technical Evangelist with Microsoft focused on our Windows Azure and Windows Phone technologies.  His job is to help developers, designers, entrepreneurs, startups companies and organizations large and small to find success and riches using Microsoft technology, specifically around Windows Azure and Windows Phone.</p>
-
-<p>Prior to joining Microsoft in March of 2007, Chris worked as a Senior Architect for The Capital Group in San Antonio, and as a Solution Architect for the global solution provider Avanade. As an Architect and  consultant, Chris worked with a variety of clients from many vertical markets, ISVs and other solution providers on enterprise-class Windows and web-based applications.</p>",
-      "Website":"http://chriskoenig.net",
-      "Photo":"/img/spkrs/chris-koenig.png",
+      "FirstName":"Ryan",
+      "LastName":"Lowdermilk",
+      "Bio":"<p>Ryan Lowdermilk is a Developer Evangelist for Microsoft in the Dallas/Fort Worth area. He educates and empowers developers to deliver first class application experiences to the Windows Phone and Windows 8 platforms.
+ </p><p>
+Prior to joining Microsoft, Ryan served as a software consultant in the Los Angeles area with responsibility for designing and implementing customer relationship and business intelligence solutions. Ryan has worked alongside some of L.A.’s top entertainment and retail firms to design and implement custom software solutions which boosted productivity, lowered the bottom line and increased profitability.</p>",
+      "Website":"",
+      "Photo":"/img/spkrs/ryan-lowdermilk.jpg",
       "Presentations":[
          {
             "Track":"Mobile",
-            "Topic":"Supercharge your Mobile Apps with Cloud Power!",
-            "Description":"Everyone has a mobile device these days, and demand for rich mobile applications is higher than ever before. Building feature-rich mobile applications is hard enough without having to build a flexible and open server-side API to run from. Luckily for you, there is now a solution!  Join Microsoft Sr. Technical Evangelist Chris Koenig for a tour of Windows Azure Mobile Services - the fast, easy and flexible way to build highly scalable mobile applications on a variety of platforms, including Windows 8, Windows Phone 8, iOS and Android. In this demo-heavy session, Chris will show you how to create Mobile Applications for a variety of platforms that all connect to the same back-end hosted in Windows Azure. "
+            "Topic":"Windows 8 powered by Azure Mobile Services",
+            "Description":"You want to write mobile applications, but you don’t want to write a bunch of server code. No problem! You will be amazed at how little code it takes to access a server-side database from your mobile client. Ryan Lowdermilk will walk us through this hands-on-lab, in which you will build a Windows 8 mobile application using Windows Azure Mobile Services. You will enable: Structured storage, Push notifications, Integrated authentication. And you will have fun doing it."
 
          }
       ]
-   },*/
+   },
    /*{
    "Id" : 9,
       "FirstName":"Christopher",
