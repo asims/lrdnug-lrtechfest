@@ -397,5 +397,52 @@ Individuals or organizations wishing to modify Android may very well want to add
 This talk will focus on a quick overview of the boot sequence of Android, the Dalvik Virtual Machine and how Services run in Android, how the System Server starts and manages system services, and will end with a code example to add a system service that listens for a certain Intent and displays a message on the screen.</p>"
          }
       ]
+   },
+   {
+   "Id" : 34,
+      "FirstName":"Jason",
+      "LastName":"Skinner",
+      "Bio":"<p>Being creative while concentrating on the big picture of new technologies, concepts and user interaction has been rewarding to Jason. He's been crafting web creations since the late ’90s, with his roots planted in both graphic design and web development. So he sees both sides of the online spectrum.
+	  </p><p>
+Jason is currently the Senior Web Developer at University of Arkansas for Medical Sciences</p>",
+      "Website":"http://jasonskinner.me/",
+      "Photo":"/img/spkrs/jason-skinner.jpg",
+      "Presentations":[
+         {
+            "Track":"UI/UX",
+            "Topic":"Front End Preprocessors: Tricks, Failings and Workflows",
+            "Description":"<p>A preprocessor is a program that processes its input data to produce output that is used as input to another program. The output is said to be a preprocessed form of the input data, which is often used by some subsequent programs like compilers.
+			</p><p>
+Okay, enough wikipedia. Preprocessors and frameworks can make life a breeze when it come to web development. The industry is still out on whether preprocessors and frameworks are even worth the effort, nevertheless which one is the industry standard.
+</p><p>
+You can look around the web and find a huge array of articles on SASS, LESS, Stylus, etc. It basically boils down to less effort mentally and physically to get results. What you don't find are workflows, failing and workflows in a small to big team environment.
+</p><p>
+I'll give examples of what I use and some other options (a versus match) of other preprocessors and frameworks out there. Basically, you will get the good, the bad and the ugly of the newish preprocessor world.</p>"
+         }
+      ]
+   },
+   {
+   "Id" : 999,
+      "FirstName":"Heath",
+      "LastName":"Lehman",
+      "Bio":"<p>Heath Lehman lives in Little Rock, Arkansas with his wife and two children.  He currently serves as the Chief Information Officer of BBA Solutions, Inc., the nation's third largest college textbook business. Through his consulting practice Heath advises several Fortune 100 companies in matters of social recruiting and business development.  In addition to this role, Heath is a partner/adviser to the technology start-up companies QBOT.com and Esume.com. 
+	  </p><p>
+ As an entrepreneur, technology investor, and innovator Heath focuses on continually improving business and education with game-changing software applications. He has a passion for social media, SEO/SEM and active content.  Through his understanding of data driven analytics, Heath shapes business decisions with a disruptive fervor. 
+ </p><p>
+Heath has a Bachelor's degree in Accounting from Saint Leo University in Florida. After college he began his career in the insurance and investment industry building a start-up that was eventually acquired by American International Group NYSE (AIG).  At the pinnacle of this career path he served as the Chief Operating Officer for four subsidiaries. Through this experience he gained a world-class education in Human Resources, Technology Development, Actuarial Data Analysis and Acquisitions. After AIG, Heath built and sold a mortgage bank to the National Bank of Arkansas.  
+</p><p>
+Always returning to his roots, Heath continues to embrace the start-up. Embracing the motto \"Boot Strap Don't Borrow\" Heath believes innovation happens in the mind of the individual. The will to succeed and the ability to ignore failure gives everyone the opportunity to have their dream job. <a href=\"http://twitter.com/heathlehman\">@heathlehman</a></p>",
+      "Website":"http://qbot.com/",
+      "Photo":"",
+      "Presentations":[
+         {
+            "Track":"Tech Entrepreneurship",
+            "Topic":"Keynote",
+            "Description":"<p>TBA</p>"
+         }
+      ]
    }
+
 ]
+
+
