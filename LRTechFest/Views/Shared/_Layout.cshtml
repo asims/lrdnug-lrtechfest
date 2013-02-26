@@ -60,13 +60,14 @@ Inferred Property:	The 'og:image' property should be explicitly provided, even i
 	            <!--<li class="active"><a href="">About</a></li>-->
 	            <!--<li><a href="#">Contact</a></li>-->
 
-                <li class="dropdown">
+                <li><a href="@Url.Action("Index", "Speakers")">Speakers</a></li>
+                @*<li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Speakers<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="@Url.Action("Index", "Speakers")">Speaker List</a></li>
                         <li><a href="@Url.Action("Call", "Speakers")">Call for Speakers</a></li>
                     </ul>
-                </li>
+                </li>*@
 @*                <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -105,13 +106,14 @@ Inferred Property:	The 'og:image' property should be explicitly provided, even i
 		          <li>@Html.ActionLink("Schedule", "Index", "Schedule")</li>
 	              <li>@Html.ActionLink("Sponsors","Index", "Sponsor")</li>
 				  <li><a href="http://lrtechfest.eventbrite.com?ref=elink" target="_blank" >Register</a></li>
-                    <li class="dropdown">
+                  <li><a href="@Url.Action("Index", "Speakers")">Speakers</a></li>
+                   @* <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Speakers<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="@Url.Action("Index", "Speakers")">Speaker List</a></li>
                             <li><a href="@Url.Action("Call", "Speakers")">Call for Speakers</a></li>
                         </ul>
-                    </li>
+                    </li>*@
 		        </ul>
 			</div>
 			<div class="span3 offset1 eventQuickInfo">
