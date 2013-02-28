@@ -26,7 +26,7 @@
         @foreach (var s in Model.OrderBy(x => x.LastName))
         {
             <div class="row">
-                <a name="@(s.FirstName.ToLower() + "-" + s.LastName.ToLower())"></a>
+                <a name="@(s.FirstName.Replace(' ','-').Replace(".","").ToLower() + "-" + s.LastName.ToLower())"></a>
                @* <h2>@Html.ActionLink(s.FullName, "Detail", "Speakers", new { id = s.Id }, null)</h2>*@
                <h2 class="span12">@s.FullName</h2>
             </div>

@@ -85,7 +85,7 @@
    "Id" : 6,
       "FirstName":"LJ",
       "LastName":"Wilson",
-      "Bio":"LJ is a long time open source developer (PHP, Unix based languages) that went the .NET route and ultimately wound up getting heavily involved with iOS development using Apple's native tools (Xcode, Obj-C).He currently works as an iOS & VB.NET programmer for Arkansas Children's Hospital",
+      "Bio":"LJ is a long time open source developer (PHP, Unix based languages) that went the .NET route and ultimately wound up getting heavily involved with iOS development using Apple's native tools (Xcode, Obj-C). He currently works as an iOS & VB.NET programmer for Arkansas Children's Hospital.",
       "Website":"http://irockios.com",
       "Photo":"/img/spkrs/LJ-Wilson.jpg",
       "Presentations":[
@@ -115,7 +115,7 @@
    "Id" : 7,
       "FirstName":"Gordon",
       "LastName":"Fisher",
-      "Bio":"Gordon Fisher is the author of Blender 3D Basics by Packt Publishing.  He has been a speaker at PyArkansas for the past several years and has spoken at PyTexas, Siggraph and Comi-Con. He is an award-winning animator and programmer.",
+      "Bio":"Gordon Fisher is the author of Blender 3D Basics by Packt Publishing. He has been a speaker at PyArkansas for the past several years and has spoken at: PyTexas, Siggraph, Comi-Con and BarCamp Conway. He is an award-winning animator and programmer.",
       "Website":"http://www.blender3dbasics.com",
       "Photo":"",
       "Presentations":[
@@ -211,7 +211,7 @@ Prior to joining Microsoft, Ryan served as a software consultant in the Los Ange
    "Id" : 11,
       "FirstName":"Jonathan",
       "LastName":"Goodman",
-      "Bio":"Jonathan Goodman started his career over 20 years ago at the dawn of the Internet age producing websites for Fortune 500 companies. He is currently the President of Halyard Consulting, an Internet marketing firm, exclusively focused on WordPress development and search optimization. Jonathan holds an MBA from Fairleigh Dickinson University, an MS from the College of New Rochelle, and a BFA from the Ringling College of Art and Design. Jonathan spent five years as the professor of Internet marketing at the Silberman College of Business at Fairleigh Dickinson University. He has spoken at numerous conferences and conventions running the gamut from higher education symposiums to music industry conferences to WordPress WordCamps. Most recently he spoke about Schema at SMX East 2012.",
+      "Bio":"Jonathan Goodman started his career over 20 years ago at the dawn of the Internet age producing websites for Fortune 500 companies. He is currently the President of Halyard Consulting, an Internet marketing firm, exclusively focused on WordPress development and search optimization. Jonathan holds an MBA from Fairleigh Dickinson University, an MS from the College of New Rochelle, and a BFA from the Ringling College of Art and Design. Jonathan is the author of the well received book The World of Internet Marketing: The Basics. He was professor of Internet marketing at the Silberman College of Business at Fairleigh Dickinson University for five years. He is currently a professor at The School of Internet Marketing. Jonathan has spoken at numerous conferences and conventions running the gamut from higher education symposiums to music industry conferences to WordPress WordCamps.",
       "Website":"http://halyardconsulting.com",
       "Photo":"/img/spkrs/jonathan-goodman.png",
       "Presentations":[
@@ -439,6 +439,43 @@ Always returning to his roots, Heath continues to embrace the start-up. Embracin
             "Track":"Tech Entrepreneurship",
             "Topic":"Keynote",
             "Description":"<p>TBA</p>"
+         }
+      ]
+   },
+   {
+   "Id" : 998,
+      "FirstName":"Dr. Mary",
+      "LastName":"Good",
+      "Bio":"<p>Dr. Mary L. Good is the Dean Emeritus (Founding Dean) of the College of Engineering and Information Technology (E.I.T.) at the University of Arkansas Little Rock and is presently serving as a Special Advisor to the Chancellor for Economic Development. The E.I.T. College of UALR was organized in 1999 with the approval of the University Of Arkansas System Board Of Trustees and the Legislature.  It grew from about 300 students in existing departments to over 1100 in 2012.  It has developed nationally recognized programs in System Engineering, Information Quality, Nanotechnology, Modeling and Simulation and Construction Management.  It is the linchpin for the workforce required for economic development in Central Arkansas.  Good also presently serves on the boards of Saint Vincent Health System, and Delta Bank and Trust, both of Little Rock. 
+	  </p><p>
+Previously Dr. Good served four years as the Under Secretary for Technology for the Technology Administration in the U.S. Department of Commerce, a presidentially appointed, Senate confirmed, position. The Technology Administration is the focal point in the federal government for assisting U. S. Industry to improve its productivity, technology and innovation in order to compete more effectively in global markets.  In addition to her role as Under Secretary for Technology, Dr. Good chaired the National Science and Technology Council's Committee on Technological Innovation (NSTC/CTI), and served on the NSTC Committee on National Security.
+</p><p>
+Before joining the Clinton Administration, Dr. Good was the senior vice-president for technology at Allied Signal, Inc., where she was responsible for the centralized research and technology organizations with facilities in Morristown, NJ; Buffalo, NY; and Des Plaines, IL. She was a member of the Management Committee and responsible for technology transfer and commercialization support for new technologies.  This position followed assignments as President of Allied Signal's Engineered Materials Research Center, Director of the UOP Research Center, and President of the Signal Research Center. Dr. Good's accomplishments in industrial research management are the achievements of a second career, having moved to an industrial position after more than 25 years of teaching and research in the Louisiana State University system.  Before joining Allied Signal, she was professor of chemistry at the University of New Orleans and professor of materials science at Louisiana State University, where she achieved the university's highest professional rank, Boyd Professor.
+</p><p>
+Dr. Good was appointed to the National Science Board by President Carter in 1980 and again by President Reagan in 1986. She was Chairman of that Board from 1988 until 1991, when she received an appointment from President Bush to become a member of the President's Council of Advisors on Science and Technology (PCAST). Dr. Good has also served on the boards of Rensselaer Polytechnic Institute, Cincinnati Milacron, and Ameritech. She was also a member of the National Advisory Board for the State of Arkansas.</p>",
+      "Website":"",
+      "Photo":"",
+      "Presentations":[
+         {
+            "Track":"Tech Entrepreneurship",
+            "Topic":"Keynote",
+            "Description":"<p>TBA</p>"
+         }
+      ]
+   },
+   {
+   "Id" : 555,
+      "FirstName":"Lee Ann",
+      "LastName":"Benson",
+      "Bio":"<p>Lee Ann Benson is currently a BI Consultant at Acxiom in Little Rock. Throughout her career she has helped close the gap between business users and IT by helping each group understand how the other operates and thinks. She has been in the Business Intelligence industry for over 10 years and holds a BSM - Accounting from Tulane University in New Orleans, LA. </p>",
+      "Website":"",
+      "Photo":"/img/spkrs/lee-ann-benson.jpg",
+      "Presentations":[
+         {
+            "Track":"UI/UX",
+            "Topic":"Visually Design the User Journey",
+            "Description":"<p>Vision is the most powerful and efficient way to communicate information in a technological world. Approximately 70% of our sense receptors are dedicated to vision. Understanding how the brain processes this information is essential to the effective design of web pages, applications, graphics and infographics that tell a story and lead users through the journey we want them to take. </p><p>
+We will briefly discuss the mechanics of sight, preattentive processing, limitations to perception and memory and Gestalt Principles of Visual Perception that will influence how we design for understanding and clarity.</p>"
          }
       ]
    }
