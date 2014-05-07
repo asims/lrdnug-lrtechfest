@@ -1,0 +1,104 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.jumbotron h1.brand {
+}
+
+.subscribe {
+    margin: 0 0 60px 0;
+}
+
+    .subscribe form {
+        border: none;
+        width: 300px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+
+#timer {
+    text-align: center;
+}
+
+#timer p {
+    border-left: 1px solid #fff;
+    border: 1px solid rgba(255,255,255,0.2);
+    display: inline-block;
+    padding: 5px 10px;
+    font-style: italic;
+}
+
+
+
+.subscribe input {
+    border: none;
+    background-color: none;
+}
+
+.subscribe input[type=email] {
+    width: 200px;
+    margin: 0;
+    display: block;
+    float: left;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    outline: none;
+    text-transform: lowercase;
+}
+
+.subscribe input[type=email] {
+    color: #777;
+}
+
+
+
+.subscribe input[type=submit] {
+    width: 100px;
+    margin: 0;
+    padding: 5px;
+    display: block;
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+    font-size: 0.6em;
+    cursor: pointer;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+
+@media only screen and (min-width: 48em) {
+
+    .subscribe form {
+        width: 450px;
+    }
+
+    .subscribe input[type=email] {
+        width: 300px;
+        height: 60px;
+        /*font-size: 1.4em;*/
+    }
+
+    .subscribe input[type=submit] {
+        width: 150px;
+        height: 60px;
+        font-size: 0.9em;
+        letter-spacing: 1px;
+    }
+}
